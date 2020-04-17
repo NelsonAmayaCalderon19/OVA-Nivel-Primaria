@@ -38,7 +38,7 @@
 	</ul>
         </div>
             <div id="conten_frame">
-               <iframe  src="inicio.jsp" name="frame" id="frame" frameborder="0" style="margin: 0px; width: 100%; height:450px; overflow-y:hidden; overflow-x:hidden;"></iframe>	               
+               <iframe  src="inicio.jsp" name="frame" id="frame" frameborder="0" style="margin: 0px; width: 100%; height:650px; overflow-y:hidden; overflow-x:hidden;"></iframe>	               
             </div>
             <div id="content_video">
                   <a id="video"><i class="icono_izquierda fa fa-video-camera"></i><strong>VIDEO TUTORIAL</strong></a>

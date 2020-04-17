@@ -86,13 +86,13 @@ RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
 rd.include(request, response);
 
                     }else{
-                        dato=almdao.buscar_Num_cert2();
-                    almdao.nuevo_Certificado(dato+1);
-                    
+                        
+                    almdao.nuevo_Certificado(dato);
+                    dato=almdao.buscar_Num_cert2();
                     alm.setIdentificacion(id);
                     alm.setNombre(nombre);
                     almdao.agregar(alm);
-                    almdao.descripcion_Certificado(dato+1,alm);
+                    almdao.descripcion_Certificado(dato,alm);
                      response.setContentType("application/pdf");
                     OutputStream out = response.getOutputStream();
           try{
@@ -135,7 +135,8 @@ documento.open();
         documento.add(new Phrase(Chunk.NEWLINE));
                Paragraph par1 = new Paragraph();
                Font fonttitulo = new Font(Font.FontFamily.TIMES_ROMAN,14,Font.BOLD,BaseColor.BLACK);
-        par1.add(new Phrase("Certificado Número: "+dato+1,fonttitulo)+"         ");
+              
+        par1.add(new Phrase("Certificado Número: "+dato,fonttitulo)+"         ");
         par1.setAlignment(Element.ALIGN_RIGHT);
         par1.add(new Phrase(Chunk.NEWLINE)); 
         par1.add(new Phrase(Chunk.NEWLINE)); 

@@ -19,17 +19,16 @@
                 <img class="personaje" src="images/sinfloo.gif" alt="">               
             </div>
             <div id="conten_mensaje">
-                 <div id="bienv">
-                </div>
+                
                 <div id="mensaje">
                     <strong><p id="mensajito"><b> Bienvenido</b><br> Al Objeto Virtual<br> de Aprendizaje <br>
                          en el tema de Manejo<br> de Residuos Sólidos,<br>
                          Orientado a los estudiantes<br> de Primaria</p></strong>
                 </div>
             </div>
-            <audio id="audio" src="audio/bienvenido.wav" >
+            <!--<audio id="audio" src="audio/bienvenido.wav" >
   Your browser does not support the <code>audio</code> element.
-</audio>
+</audio>-->
 
         </div>
         <script src="js/iniciojs.js" type="text/javascript"></script>
