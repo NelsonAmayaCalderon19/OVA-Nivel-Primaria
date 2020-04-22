@@ -86,8 +86,8 @@ RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
 rd.include(request, response);
 
                     }else{
-                        
-                    almdao.nuevo_Certificado(dato);
+                       dato=almdao.buscar_Num_cert2(); 
+                    almdao.nuevo_Certificado(dato+1);
                     dato=almdao.buscar_Num_cert2();
                     alm.setIdentificacion(id);
                     alm.setNombre(nombre);

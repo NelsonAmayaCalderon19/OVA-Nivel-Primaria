@@ -21,7 +21,7 @@
                 </div>
                 <i class="fa fa-play" id="play2"></i><h1 id="especifico">Objetivos Especificos</h1>
                 <div id="objetivo_especifico">
-                    <p>Fomentar en la comunidad educativa conciencia ambiental con un buen manejo de los residuos sólidos.</p>
+                    <p>Fomentar en la comunidad educativa conciencia ambiental en el buen manejo de los residuos sólidos.</p>
                 </div>
                 <div id="objetivo_especifico2">
                     <p>Clasificar los residuos sólidos en orgánicos e inorgánicos procesando los primeros para convertirlos en abono y los segundos reciclándolos en el lugar adecuado.</p>
