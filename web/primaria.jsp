@@ -43,7 +43,7 @@
             <div id="content_video">
                   <a id="video"><i class="icono_izquierda fa fa-video-camera"></i><strong>VIDEO TUTORIAL</strong></a>
                   <a id="creditos"><i class="icono_izquierda fa fa-users"></i><strong>CREDITOS</strong></a>
-                  <a id="menu_principal" href="index.jsp"><i class="icono_izquierda fa fa-users"></i><strong>Volver al Menú</strong></a>
+                  <a id="creditos" style="float: right;"  href="index.jsp"><i class="icono_izquierda fa fa-arrow-left"></i><strong>Volver al Menú Principal  </strong></a>
             </div>
         </div>
         <div class="contenedor">

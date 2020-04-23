@@ -193,22 +193,6 @@ body{
  cursor: pointer;
 }
 
-#menu_principal{
-    float: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 2px solid #B5D2F5;
-    color: black;
-    text-decoration: none;
-}
-
-#menu_principal:hover{
- background-color:#B5D2F5; 
- cursor: pointer;
-}
-
 
 .contenedor {
 	width: 90%;
