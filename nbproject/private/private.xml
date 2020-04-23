@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/bibliografia.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/src/java/modelo/Tipo_Documento.java</file>
+            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/primaria.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_cuestionario.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido2.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/src/java/modelo/Alumno.java</file>
@@ -12,6 +13,7 @@
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido6.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido1.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/src/java/modelo/Cuestion.java</file>
+            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/index_style.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido8.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/cuestionario.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido5.css</file>
@@ -20,14 +22,16 @@
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_inicio.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/src/java/modelDAO/AlumnoDAO.java</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/src/java/control/Certificado.java</file>
-            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_index.css</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/objetivos.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/inicio.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_objetivos.css</file>
-            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/index.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido4.css</file>
+            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/index.jsp</file>
+            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_primaria.css</file>
+            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/js/contenido1.js</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/nbproject/build-impl.xml</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenid9.css</file>
+            <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/images/preescolar.jpg</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/contenido11.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/contenido1.jsp</file>
             <file>file:/C:/Users/TURBO%20Core%20i3/Documents/OVA-Nivel-Primaria/web/css/style_contenido10.css</file>
