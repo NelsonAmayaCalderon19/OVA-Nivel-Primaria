@@ -1,0 +1,169 @@
+ *{
+                padding: 0px;
+                margin: 0px;
+            }
+            #contenido{
+                display: none;
+                /*animation-duration: 1.5s;
+  animation-name: slide;
+   margin-rigth: 0%;  */         
+               height: 648px;
+               background: url(../images/object_secundaria.jpg) no-repeat fixed right;
+               background-size: 40% 45%;
+/*background-size: cover;
+	/*background-repeat: no-repeat;
+	background-size: 100% 100% ;*/
+
+        
+            }
+               @keyframes slide {
+  from {
+
+    margin-right: 100%;
+    /*transform: translateX(100%);*/
+  }
+
+  to {
+ margin-right: 0%;
+
+    /*transform: translateY(50%);*/
+  }
+}
+            #bienv{
+                width: 100%;
+                height: 10%;
+                border-bottom: 5px dotted grey;
+            }
+            #bienv_text{
+                float: left;
+                font-size: 30px;
+                padding: 5px;
+                color: #D56203;
+            }
+            #conten_mensaje{
+              width: 100%;
+                  height: 90%;
+                  padding: 10px;
+            }
+            #play{
+                display: none;
+                float: left;
+                font-size: 2em;
+                color: #226ab9;
+            }
+            #play,#general{
+                display: inline;
+                
+            }
+            #general{
+                transform: translate(-100px,10px);
+                font-size: 30px;
+                font-family: times new roman;
+                padding-left: 2%;
+                color: #226ab9;
+            }
+            #especifico{
+                
+                font-size: 30px;
+                font-family: times new roman;
+                padding-left: 2%;
+                color: #04B404;
+            }
+            #play2,#especifico{
+                display: inline;
+                
+            }
+            #play2{
+                
+                color: #04B404;
+                margin-left: 5%;
+                font-size: 2em;
+            }
+            #objetivo_general{
+                display: none;
+                padding: 2px;
+                animation-duration: 2s;
+  animation-name: slidein;
+   margin-top: 2%; 
+                width: 80%;
+                margin-left: 5%;
+                height: 15%;
+                border: 2px solid #226ab9;
+                border-radius: 10px;
+                margin-top: 2%;
+                 margin-bottom: 3%;
+            }
+                           @keyframes slidein {
+  from {
+
+    margin-top: 200px;
+    /*transform: translateX(100%);*/
+  }
+
+  to {
+ margin-top: 2%;
+
+    /*transform: translateY(50%);*/
+  }
+}
+                         @keyframes slidei {
+  from {
+
+    margin-top: 130px;
+    /*transform: translateX(100%);*/
+  }
+
+  to {
+ margin-top: 2%;
+
+    /*transform: translateY(50%);*/
+  }
+}
+                       @keyframes slid {
+  from {
+
+    margin-top: 55px;
+    /*transform: translateX(100%);*/
+  }
+
+  to {
+ margin-top: 2%;
+
+    /*transform: translateY(50%);*/
+  }
+}
+            #objetivo_especifico{
+                display: none;
+                padding: 2px;
+                animation-duration: 4s;
+  animation-name: slidei;
+   margin-right: 0%; 
+                width: 50%;
+                margin-left: 10%;
+                height: 15%;
+                border: 2px solid red;
+                border-radius: 10px;
+                margin-top: 2%;
+                 margin-bottom: 2%;
+            }
+
+            #objetivo_especifico2{
+                display: none;
+                animation-duration: 4s;
+  animation-name: slid;
+   margin-right: 0%; 
+                width: 50%;
+                padding: 2px;
+                margin-left: 10%;
+                height: 15%;
+                border: 2px solid greenyellow;
+                border-radius: 10px;
+                margin-top: 2%;
+                 margin-bottom: 2%;
+            }
+            p{
+                font-size: 20px;
+                color: black;
+                font-family: times new roman;
+            }
+
