@@ -32,6 +32,9 @@
                 </div>
                 <div id="imagen">
                     <img class="imgen" src="images/icon_reciclaje.png" alt="">
+                    <img class="imgen2" src="images/icon_reciclaje.png" alt="">
+                    <img class="imgen3" src="images/icon_reciclaje.png" alt="">
+                    <img class="imgen4" src="images/icon_reciclaje.png" alt="">
                 </div>
             </div>
             </div>

@@ -83,15 +83,15 @@
                 
             }
             #conten_personaje{
-                width: 45%;  
+                width: 35%;  
               justify-content: right;
               text-align: right;
               align-items: right;
               height: 100%;
             }
             #conten_mensaje{
-              width: 55%;
-              background-color: #F0F7F7;
+              width: 65%;
+              background-color: #EFFBF8;
             }
             .personaje{
                 
@@ -119,7 +119,7 @@
 }
 #mensaje{
                 display:none;
-                height: 70%;
+                height: 50%;
                 animation-duration: 4s;
   animation-name: slideii;
    margin-left: 0%;
@@ -127,7 +127,7 @@
                 background: url(../images/dialogo_transparente.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100% ;
-                width: 90%;
+                width: 70%;
                 
                 justify-content: center;
                 text-align: center;
@@ -159,10 +159,44 @@
     height: 30%;
     text-align: right;
     padding: 1%;
+    display: flex;
 }
 .imgen{
     display: none;
-    width: 30%;
-    height: 100%;
+    width: 20%;
+    height: 70%;
+    margin-top: 60px;
+    margin-right: 10px;
+     -webkit-animation: translate 5s infinite ease-in-out;
+}
+ @-webkit-keyframes translate{
+    0%{transform: translateY(0px);}
+    25%{transform: translateY(5px);}
+    50%{transform: translateY(-25px);}
+    75%{transform: translateY(20px);}
+    100%{transform: translateY(0px);}
+    /*0%{-webkit-transform: rotateX(360deg);}
+    100%{-webkit-transform: rotateX(0deg);}*/
+}
+.imgen2{
+    display: none;
+    width: 20%;
+    height: 70%;
+    margin-right: 10px;
+     -webkit-animation: translate 8s infinite ease-in-out;
+}
+.imgen3{
+    display: none;
+    width: 20%;
+    height: 70%;
+    margin-top: 60px;
+    margin-right: 10px;
+     -webkit-animation: translate 5s infinite ease-in-out;
+}
+.imgen4{
+    display: none;
+    width: 20%;
+    height: 70%;
+     -webkit-animation: translate 8s infinite ease-in-out;
 }
 

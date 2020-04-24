@@ -1,9 +1,9 @@
-*{
+ *{
                 padding: 0px;
                 margin: 0px;
             }
             body{
-                background-color: #EFFBF8;
+                background-color: #F0F7F7;
             }
             #contenido{
                 display: none;
@@ -23,11 +23,6 @@
                 width: 100%;
                 height: 10%;
                 border-bottom: 5px dotted grey;
-                display: flex;
-            }
-            #conten{
-                width: 100%;
-                height: 90%;
                 display: flex;
             }
             #bienv{
@@ -65,7 +60,7 @@
                 margin-right: 5%;
             }
             #anterior{
-                visibility: hidden;
+                /*visibility: hidden;*/
                 /*display: none;*/
                 font-family: times new roman;
                 font-size: 20px;
@@ -77,91 +72,48 @@
                 
             }
             #caretant{
-                visibility: hidden;
+                /*visibility: hidden;*/
                 /*display: none;*/
-                font-size: 1em;
-                
+                font-size: 1em;               
             }
-            #conten_personaje{
-                width: 35%;  
-              justify-content: right;
-              text-align: right;
-              align-items: right;
-              height: 100%;
-            }
-            #conten_mensaje{
-              width: 65%;
-              background-color: #EFFBF8;
-            }
-            .personaje{
-                
-                display:none;
-                padding-top: 70px;
-                animation-duration: 4s;
-  animation-name: slidein;
-   margin-rigth: 0%;
-                height: 400px;
-                
-                bottom: 0;               
-            }
-            @keyframes slidein {
-  from {
-
-    margin-right: 150%;
-    /*transform: translateX(100%);*/
-  }
-
-  to {
- margin-right: 0%;
-
-    /*transform: translateY(50%);*/
-  }
-}
-#mensaje{
-                display:none;
-                height: 50%;
-                animation-duration: 4s;
-  animation-name: slideii;
-   margin-left: 0%;
-   
-                background: url(../images/dialogo_transparente.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100% ;
-                width: 70%;
-                
+            #conten{
+                width: 100%;
+                height: 90%;
                 justify-content: center;
-                text-align: center;
+                align-items: center;
+                padding: 10px;
+                padding-top: 20px;
+            }
+            #recicla{
+                color:#2E2EFE;
+                font-family: times new roman;
                 
             }
-            #mensajito{
-                color: #B55302;
-                font-size: 20px;
+            #cont{
+                padding-top: 20px;
                 margin: 0px auto;
-                margin-left: 10px;
-                padding-right: 5px;
-                padding-top: 30px;
+                width: 90%;
+                height: 45%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
             }
-            @keyframes slideii {
-  from {
-
-    margin-left: 10%;
-    /*transform: translateX(100%);*/
-  }
-
-  to {
- margin-left: 0%;
-
-    /*transform: translateY(50%);*/
-  }
-}
-#imagen{
-    width: 100%;
-    height: 30%;
-    text-align: right;
-    padding: 1%;
-    display: flex;
-}
-.imgen{
+            #cont:hover{
+                box-shadow: 0 0 30px red;
+            }
+            #texto{
+                font-family: times new roman;
+                font-size: 25px;
+            }
+            #imagen{
+                margin: 0px auto;
+                width: 90%;
+                height: 55%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;  
+            }
+            .imgen{
     display: none;
     width: 20%;
     height: 70%;
@@ -199,4 +151,5 @@
     height: 70%;
      -webkit-animation: translate 8s infinite ease-in-out;
 }
+            
 
