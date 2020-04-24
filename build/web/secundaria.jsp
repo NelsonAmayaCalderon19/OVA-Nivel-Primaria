@@ -30,7 +30,7 @@
         <div id="contenido">
             <div class="menu_opciones">
 	<ul class="menu_opciones2">
-            <a id="link" target="frame" href="inicio.jsp"><i class="icono_izquierda fa fa-home"></i><strong>INICIO</strong></a>
+            <a id="link" target="frame" href="inicio_secundaria.jsp"><i class="icono_izquierda fa fa-home"></i><strong>INICIO</strong></a>
             <a id="link2" target="frame" href="objetivos_secundaria.jsp"><i class="icono_izquierda fa fa-bullseye"></i><strong>OBJETIVOS</strong></a>
             <a id="link3" target="frame" href="contenido1.jsp"><i class="icono_izquierda fa fa-file-text-o"></i><strong>CONTENIDO</strong></a>
             <a id="link4" target="frame" href="cuestionario.jsp"><i class="icono_izquierda fa fa-list-alt"></i><strong>CUESTIONARIO</strong></a>
@@ -38,7 +38,7 @@
 	</ul>
         </div>
             <div id="conten_frame">
-               <iframe  src="inicio.jsp" name="frame" id="frame" frameborder="0" style="margin: 0px; width: 100%; height:650px; overflow-y:hidden; overflow-x:hidden;"></iframe>	               
+               <iframe  src="inicio_secundaria.jsp" name="frame" id="frame" frameborder="0" style="margin: 0px; width: 100%; height:650px; overflow-y:hidden; overflow-x:hidden;"></iframe>	               
             </div>
             <div id="content_video">
                   <a id="video"><i class="icono_izquierda fa fa-video-camera"></i><strong>VIDEO TUTORIAL</strong></a>
