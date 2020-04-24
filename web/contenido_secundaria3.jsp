@@ -36,13 +36,11 @@
                         <i id="manita" class="fa fa-hand-o-right"></i>
                     </div>
                     <div id="camp3">
-                        
+                        <img class="imgen" src="images/caneca_azul.png" alt="">
                     </div>
                 </div>
                 </div>
         </div>
-        
-      <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
       <script src="js/contenido_secundaria3.js" type="text/javascript"></script>
     </body>
 </html>
