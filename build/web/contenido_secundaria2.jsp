@@ -21,7 +21,7 @@
                 </div>
             <div id="conten">
                 <div id="cont">
-                    <h1 id="recicla">¡RECICLAR ES MUY SENCILO!</h1>
+                    <h1 id="recicla">¡RECICLAR ES MUY SENCILLO!</h1>
                     <p id="texto">
                         Lo único que tenemos que hacer es<br> separar los materiales e introducirlos<br> en el contenedor adecuado.
                     </p>
