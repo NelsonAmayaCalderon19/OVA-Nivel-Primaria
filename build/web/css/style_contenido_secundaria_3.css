@@ -77,9 +77,11 @@
                 /*display: none;*/
                 font-size: 1em;               
             }
-            #conten{
+            #cont{
                 width: 100%;
                 height: 90%;
+                justify-content: center;
+                align-items: center;
             }
             #titulo{
                 width: 100%;
@@ -108,5 +110,20 @@
                 padding-bottom: 3px;
                 margin-bottom: 3px;
                 text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+            }
+            #camp{
+                margin-top: 20px;
+                padding: 10px;
+                width: 90%;
+                height: 100%;
+                display: flex;
+                border: 2px solid red;
+                background-color: yellow;
+            }
+            #camp1{
+                width: 40%;
+                height: 100%;
+                border: 2px solid red;  
+                    
             }
            

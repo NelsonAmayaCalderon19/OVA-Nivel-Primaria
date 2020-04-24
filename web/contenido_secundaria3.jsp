@@ -21,17 +21,21 @@
                    <a href="contenido_secundaria2.jsp" target="frame" id="anterior"><i class="fa fa-caret-left" id="caretant"></i> Anterior</a> <input id="campo" type="text" value="3/18" disabled=""/><a href="contenido_secundaria4.jsp" target="frame" id="siguiente">Siguiente <i class="fa fa-caret-right" id="caret"></i></a>
                 </div>
                 </div>
-            <div id="conten">
+            <div id="cont">
                 <div id="titulo">
                     <div id="titulos">
-                        <h1 id="titulo_video">Contenedor Azul</h1></div>  
+                        <h1 id="titulo_video">Contenedor Azul</h1>
+                    </div>  
                 </div>
+                
+                <div id="camp">
+                    <div id="camp1">
+                        
+                    </div>
                 </div>
-                <div id="cuerpo">
-                    
                 </div>
         </div>
-        </div>
+        
       <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
       <script src="js/contenido_secundaria3.js" type="text/javascript"></script>
     </body>
