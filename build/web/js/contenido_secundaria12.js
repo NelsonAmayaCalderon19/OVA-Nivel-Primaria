@@ -6,7 +6,7 @@ $(document).ready(function() {
     setTimeout(function() {
         $("#mensaje").fadeIn(1500);
         $(".personaje").fadeIn(1500);
-    },1500);
+    },1000);
 
     
 });
