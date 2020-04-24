@@ -124,14 +124,14 @@
                 padding: 20px;
                 width: 40%;
                 height: 100%;
-                border: 2px solid #04B404;  
+                border: 2px solid yellow;  
                     
             }
              #camp1:hover{
-                box-shadow: 0 0 30px #04B404;
+                box-shadow: 0 0 30px yellow;
             }
              #camp3:hover{
-                box-shadow: 0 0 30px yellow;
+                box-shadow: 0 0 30px #04B404;
             }
             #camp2{
                 display: none;

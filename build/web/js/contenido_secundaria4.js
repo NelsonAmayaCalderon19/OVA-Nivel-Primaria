@@ -7,7 +7,7 @@ $(document).ready(function() {
     },500); 
     setTimeout(function() {
         $("#camp2").fadeIn(1500);
-    },15000); 
+    },3500); 
 });
                
 
