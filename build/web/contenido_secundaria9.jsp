@@ -24,22 +24,22 @@
             <div id="conten">
                 <div id="titulo">
                     <div id="titulos">
-                        <h1 id="titulo_video">Responde en Base al Video Anterior</h1></div>  
+                        <h1 id="titulo_video">Responde en Base al tema Visto Anteriormente</h1></div>  
                 </div>
                 <div id="preguntas">
                     <div id="conten_pregunta">
-                    <h1 id="titulo_pregunta">¿De que color es el contenedor para reciclar el plástico?</h1>
-                    </div>
+                    <h1 id="titulo_pregunta">Observa el siguiente ejemplo: Si tu vas a la tienda y compras un refresco en envase de plástico y un pastel envuelto en una servilleta, luego de comertelos ¿en que colores de recipientes debes arrojar la servilleta y el embase desechable respectivamente?</h1>
+                    </div><br><br><br>
                     <div id="pregunta">
                         <form name="formulario" id="formulario">
       <input type="checkbox" name="pregunta" value="1" id="pregunta1">
-      <label for="pregunta1">A). Verde</label>
+      <label for="pregunta1">A). Azul</label>
       <input type="checkbox" name="pregunta" value="2" id="pregunta2">
-      <label for="pregunta2">B). Azul</label>
+      <label for="pregunta2">B). Verde</label>
       <input type="checkbox" name="pregunta" value="3" id="pregunta3">
-      <label for="pregunta3">C). Amarillo</label>
+      <label for="pregunta3">C). Rojo</label>
       <input type="checkbox" name="pregunta" value="4" id="pregunta4">
-      <label for="pregunta4">D). Otro </label><br><br>      
+      <label for="pregunta4">D). Amarillo</label><br><br>      
                         </form>
                         <input type="submit" value="Verificar" id="boton"  name="boton"/>
     </div>                  
@@ -50,9 +50,8 @@
                             <div class="overlay2" id="overlay2">
 			<div class="popup2" id="popup2">
                             <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup2"><i class="fa fa-times"></i></a>
-                            <i class="fa fa-times" id="incorrecto"><label><b>Incorrecto:</b> Te invitamos a que vuelvas a ver el Video, y puedas responder a esta pregunta</label></i><br>
-                            <i class="fa fa-check" id="correcto"><label><b>Correcto:</b> El Contenedor en el que debes depositar los plásticos es de Color Azul</label></i><br>  
-                            <i class="fa fa-check" id="correcto2"><label><b>Correcto:</b> El Contenedor en el que debes depositar los plásticos es de Color Azul</label></i><br> 
+                            <i class="fa fa-times" id="incorrecto"><label><b>Incorrecto:</b> Has Arrojado estos elementos en Contenedores no adecuados para ellos.</label></i><br>
+                            <i class="fa fa-check" id="correcto"><label><b>Correcto:</b> Has Arrojado estos elementos en los Contenedores adecuados<br> ya que los plásticos se deben disponer en el contenedor Amarillo, y los papales en el Contenedor Azul<br> Felicitaciones!!!</label></i><br>  
                             </div> 				                                                                                            
 			</div>
 		</div>

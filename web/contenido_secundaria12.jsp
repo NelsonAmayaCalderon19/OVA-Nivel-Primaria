@@ -26,9 +26,9 @@
             </div>
             <div id="conten_mensaje">
                 <div id="mensaje">
-                    <strong><p id="mensajito">Ahora Aprenderás<br> conocerás y aprenderás algunos<br> que materiales puedes <br>
+                    <strong><p id="mensajito">Ahora<br> Conocerás y Aprenderás algunos<br> que materiales puedes <br>
                         reciclar desde tu casa o colegio<br>
-                        clasificandoloes por categorias, espero y lo<br><Strong>pongas en práctica</strong></p></strong>
+                        clasificandolos por categorias, espero y lo<br><Strong>pongas en práctica</strong></p></strong>
                 </div>
                 
             </div>
