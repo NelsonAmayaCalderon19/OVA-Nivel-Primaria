@@ -30,7 +30,9 @@
                 
                 <div id="camp">
                     <div id="camp1">
-                        <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p>
+                        <p id="texto" style="font-family: times new roman; font-size: 20px; color: black;">No se suelen ver muy seguido, pero los contenedores rojos de reciclaje son bastante útiles, y ahora les contaremos por qué. Cuando veamos un color rojo en una papelera de reciclaje o contenedor, tenemos que saber que la basura o desechos que están allí pueden ser potencialmente peligrosos para el humano y el medio ambiente.<br><br>
+
+Ejemplos de desechos peligrosos son aerosoles, aceites, pilas, baterías, insecticidas, pinturas o productos de origen tecnológico que pueden ser dañinos. Si bien no es considerado un color universal para estos desechos, es uno de los más utilizados para este tipo de materiales. Lo que suele verse con más frecuencia son los contenedores de reciclaje de pilas, que están presentes en cada rincón de las ciudades y oficinas, algo que facilita y muco el reciclaje de baterias masivo.</p>
                     </div>
                     <div id="camp2">
                         <div id="flecha">
@@ -46,8 +48,11 @@
                     
                         
                         <div id="camp3">
-                        <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p>
-                    </div>
+                            <p style="font-family: times new roman; font-size: 20px; color: black;">
+                                Los contenedores rojos, aunque poco habituales, son muy útiles y uno de los que evitan una mayor contaminación ambiental.<br> <br>
+                                Podemos considerarlos para almacenar desechos peligrosos como baterías, pilas, insecticidas, aceites, aerosoles, o productos tecnológicos.<br><br>
+También los contenedores rojos en clínicas u hospitales son empleados para arrojar residuos biosanitarios en el cual podemos depositar: gasas, algodones, guantes, jeringas etc.
+                            </p>   </div>
                     
                 </div>
                 </div>

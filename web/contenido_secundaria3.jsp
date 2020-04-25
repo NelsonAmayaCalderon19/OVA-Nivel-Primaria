@@ -30,9 +30,13 @@
                 
                 <div id="camp">
                     <div id="camp1">
-                        <p id="texto">El contenedor de color azul es usado para alojar todos los residuos como papel y cartón, esto incluye papeles de oficina, papeles de nuestros cuadernos, volantes, envases de cartón, cajas, envases de alimentos, revistas, periódicos, folletos, flyers, etc.<br>
+                        <p id="texto" style="font-family: times new roman; font-size: 20px; color: black;">El contenedor de color azul es usado para alojar todos los residuos como papel y cartón, 
+                            esto incluye papeles de oficina, papeles de nuestros cuadernos, volantes, envases de cartón, 
+                            cajas, envases de alimentos, revistas, periódicos, folletos, flyers, etc.<br>
 
-                            Lo ideal, sobre todo con el cartón, es doblarlos (plegarlos) de tal forma que ocupen la menor cantidad posible de espacio, pues en sus formas originales ocuparían mucho tamaño, haciendo que su transporte se dificulte.</p>  </div>
+                            <br>  Lo ideal, sobre todo con el cartón, es doblarlos (plegarlos) 
+                            de tal forma que ocupen la menor cantidad posible de espacio, pues en sus formas 
+                            originales ocuparían mucho tamaño, haciendo que su transporte se dificulte.</p>  </div>
                     <div id="camp2">
                         <i id="manita" class="fa fa-hand-o-right"></i>
                     </div>

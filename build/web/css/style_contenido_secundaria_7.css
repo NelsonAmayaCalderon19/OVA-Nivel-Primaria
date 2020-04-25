@@ -130,6 +130,11 @@
              #camp1:hover{
                 box-shadow: 0 0 30px #FD4431;
             }
+                  #texto{
+    font-family: times new roman; 
+    font-size: 20px; 
+    color: black;
+}
              #camp3:hover{
                 box-shadow: 0 0 30px #FD4431;
             }
@@ -161,8 +166,6 @@
                  display: none;
                 width: 40%;
                 height: 100%;
-                justify-content: center;
-                text-align: center;
                 padding-top: 20px;
                 border: 2px solid #FD4431; 
                 border-radius: 15px;
