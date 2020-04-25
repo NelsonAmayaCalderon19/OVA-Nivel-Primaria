@@ -66,7 +66,49 @@
             #pregunta{
                 padding: 10px;
             }   
+/*div,
+select {
+  margin: 8px;
+}
 
+ Etiquetas para entradas marcadas 
+input:checked + label {
+  color: red;
+}
+
+ Elemento Radio, cuando está marcado 
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+ Elemento Checkbox, cuando está marcado 
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+ Elementos Option, cuando se seleccionan 
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}*/
+
+#pregunta label {
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  background: #FAE3BB;
+  color: #4C3000;
+  width: calc(50% - 8px);
+  min-width: 100px;
+  cursor: pointer;
+}
+
+
+
+#pregunta input[type=radio]:checked + label {
+  background: #04B404;
+  color: #FAFAFA;
+}
 #boton{
     padding: 10px;
     font-size: 20px;
