@@ -124,14 +124,19 @@
                 padding: 20px;
                 width: 40%;
                 height: 100%;
-                border: 2px solid #04B404;  
-                    
+                border: 2px solid #FD4431;  
+                 border-radius: 15px;                   
             }
              #camp1:hover{
-                box-shadow: 0 0 30px #04B404;
+                box-shadow: 0 0 30px #FD4431;
             }
+                  #texto{
+    font-family: times new roman; 
+    font-size: 20px; 
+    color: black;
+}
              #camp3:hover{
-                box-shadow: 0 0 30px yellow;
+                box-shadow: 0 0 30px #FD4431;
             }
             #camp2{
                 display: none;
@@ -140,29 +145,11 @@
   margin-top: 0px;
                 width: 20%;
                 height: 100%;
-                display: table;
                 justify-content: center;
                 text-align: center;
                     
             }
-            #camp3{
-                 display: none;
-                width: 40%;
-                height: 100%;
-                justify-content: center;
-                text-align: center;
-                padding-top: 20px;
- 
-            }
-            #manita{
-                
-display: table-cell;
-   vertical-align: middle;
-                font-size: 4em;
-                color: green;
-                
-            }
-                                    @keyframes slidein {
+                                       @keyframes slidein {
   from {
 
     margin-top: 30%;
@@ -175,20 +162,57 @@ display: table-cell;
     /*transform: translateY(50%);*/
   }
 }
+            #camp3{
+                 display: none;
+                width: 40%;
+                text-align: left;
+                height: 100%;
+                padding: 20px;
+                border: 2px solid #FD4431; 
+                border-radius: 15px;
+            }
+            #flecha{
+                width: 100%;
+                height: 15%;
+                text-align: right;
+                padding-left: 25px;
+                padding-top: 15px;
+            }
+            #foto{
+                width: 100%;
+                height: 70%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                
+            }
+            #flecha2{
+                width: 100%;
+                height: 15%;
+                text-align: right;
+                padding-right: 25px;
+                padding-bottom: 20px;
+            }
+            #manita{
+                font-size: 4em;
+                color: green;
+                float: left;
+                margin-bottom: 10px;
+                margin-left: 15px;
+            }
+            #manita2{
+                font-size: 4em;
+                color: green;
+                float: right;
+                margin-right: 25px;
+                transform: rotate(180deg);              
+            }
+
             .imgen{
     /*display: none;*/
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 60%;
     /*margin-top: 60px;
     margin-right: 10px;*/
-     -webkit-animation: translate 5s infinite ease-in-out;
-}
- @-webkit-keyframes translate{
-    0%{transform: translateX(0px);}
-    25%{transform: translateX(5px);}
-    50%{transform: translateX(-15px);}
-    75%{transform: translateX(10px);}
-    100%{transform: translateX(0px);}
-    /*0%{-webkit-transform: rotateX(360deg);}
-    100%{-webkit-transform: rotateX(0deg);}*/
+
 }

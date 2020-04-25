@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_contenido_secundaria_5.css">
+        <link rel="stylesheet" type="text/css" href="css/style_conten_secundaria_5.css">
         <title>Contenido 5</title>
     </head>
     <body>
@@ -30,8 +30,7 @@
                 
                 <div id="camp">
                     <div id="camp1">
-                        <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p>
-                    </div>
+                        <p id="texto">Estos son resíduos como los restos de comída. Mucha gente se olvida de que solo cóme este tipo de resíduos y hecha todo en el contenedor gris.<br><br>Los contenedores de color gris no son los más comunes tampoco, y si bien es cierto que se depositan en ellos sobre todo materiales biodegradables, también se usan principalmente para guardar todo tipo de residuos que no entran en los demás colores.</p> </div>
                     <div id="camp2">
                         <i id="manita" class="fa fa-hand-o-right"></i>
                     </div>

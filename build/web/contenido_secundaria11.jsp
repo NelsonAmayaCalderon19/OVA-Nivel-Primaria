@@ -30,13 +30,13 @@
                 
                 <div id="camp">
                     <div id="camp1">
-                        <i id="mano1"  class=" fa fa-hand-o-right"><label>Beneficio 1</label></i><br>
-                        <i id="mano2"  class=" fa fa-hand-o-right"><label>Beneficio 2</label></i><br>
-                        <i id="mano3"  class=" fa fa-hand-o-right"><label>Beneficio 3</label></i><br>
-                        <i id="mano4"  class=" fa fa-hand-o-right"><label>Beneficio 4</label></i><br>
-                        <i id="mano5"  class=" fa fa-hand-o-right"><label>Beneficio 5</label></i><br>
-                        <i id="mano6"  class=" fa fa-hand-o-right"><label>Beneficio 6</label></i><br>
-                        <i id="mano7"  class=" fa fa-hand-o-right"><label>Beneficio 7</label></i>
+                        <i id="mano1"  class=" fa fa-hand-o-right"><label>Vivimos en un mundo más limpio.</label></i><br>
+                        <i id="mano2"  class=" fa fa-hand-o-right"><label>Si se recicla el vidrio, se ahorra un 90% de la energía a la hora de generar vidrio nuevo.</label></i><br>
+                        <i id="mano3"  class=" fa fa-hand-o-right"><label>Se disminuye el volumen de residuos que hay que eliminar, por lo que no hay tanta basura en el mundo.</label></i><br>
+                        <i id="mano4"  class=" fa fa-hand-o-right"><label>Se ahorra mucha energía a la hora de crear nuevos productos, por lo que se reducen las emisiones de CO2.</label></i><br>
+                        <i id="mano5"  class=" fa fa-hand-o-right"><label>Por cada dos toneladas de plástico que se recicla, se ahorra una tonelada de petróleo.</label></i><br>
+                        <i id="mano6"  class=" fa fa-hand-o-right"><label>Por cada tonelada de papel que se recicla se salvan 17 árboles.</label></i><br>
+                        <i id="mano7"  class=" fa fa-hand-o-right"><label>Si reutilizas puedes construir nuevos objetos.</label></i>
                         
                     </div>
                     <div id="camp3">

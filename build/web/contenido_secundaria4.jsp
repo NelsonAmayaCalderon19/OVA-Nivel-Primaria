@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_contenido_secundaria_4.css">
+        <link rel="stylesheet" type="text/css" href="css/style_conten_secundaria_4.css">
         <title>Contenido 4</title>
     </head>
     <body>
@@ -38,8 +38,9 @@
                     
                         
                         <div id="camp1">
-                        <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p>
-                    </div>
+                            <p id="texto">Las latas de aluminio y plásticos son una gran fuente de contaminación, si los agrupamos logramos mejorar este problema. El contenedor amarillo está indicado para latas y residuos plásticos, como por ejemplo envases de conserva, latas de refrescos y cerveza, plásticos de botellas, bolsas plásticas, envases de alimentos, etcétera. A partir de las latas es común que se haga el popular reciclaje del aluminio, tan útil para ahorrar energía y evitar emisiones de carbono.<br><br>
+
+Las bolsas plásticas son uno de los elementos que más contaminación aportan al mundo, las vemos en todos lados, rios, calles, rutas, césped, y es algo que debemos frenar cuanto antes. Con el contenedor amarillo lograrás clasificar latas y plásticos de manera fácil y rápida.</p>  </div>
                     
                 </div>
                 </div>

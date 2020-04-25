@@ -22,8 +22,7 @@
             <div id="conten">
                 <div id="conten2">
                 <div id="conten21">
-                    <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Pinturas y Aceite:</strong></label><br> <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.
-                   </p></i>
+                    <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Pinturas y Aceite:</strong></label><br> <p>Este tipo de sustancias contienen materiales tóxicos y peligrosos para el hombre, por eso, se debe respetar el siguiente consejo que consiste en no echar a la basura aerosoles, esmaltes, aguarrás, tintes y protectores de madera.</p></i>
             </div>
                     <div id="conten22">
                 <img class="imgen" src="images/caneca_azul.png" alt="">
@@ -34,14 +33,12 @@
                 <img class="imgen2" src="images/caneca_azul.png" alt="">
             </div>
                     <div id="conten32">
-                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Plásticos:</strong></label><br> <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.
-                   </p></i>
+                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Plásticos:</strong></label><br> <p>Con el reciclaje de plásticos se reducen residuos disminuyendo su impacto e influencia en el ambiente. Además se reduce el consumo de petróleo, un bien escaso, que hai que repartir y reducir su uso.</p></i>
             </div>
             </div>
                 <div id="conten4">
                 <div id="conten41">
-                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Vidrios:</strong></label><br> <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.
-                   </p></i>
+                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Vidrios:</strong></label><br> <p>El reciclado de vidrios ahorra energía ya que éste siempre se puede reciclar. Para su recogida se requiere eliminar del vidrio objetos tales como tapones, alambres, etiquetas..., etc. Se obtienen muchos beneficios gracias al reciclaje del vidrio, como, la no extracción de materias primas, el menor consumo de energía y la disminución del volumen de residuos que se deben recoger y eliminar.</p></i>
             </div>
                     <div id="conten42">
                         <img class="imgen3" src="images/caneca_azul.png" alt="">

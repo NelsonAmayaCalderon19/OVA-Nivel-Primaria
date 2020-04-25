@@ -3,126 +3,59 @@
                 margin: 0px;
             }
             body{
-                background-color: #F0F7F7;
-                overflow-y:hidden;
+                background-color: #EFFBF8;
+
             }
             #contenido{
-                display: none;
-               /* animation-duration: 1.5s;
-  animation-name: slide;
-   margin-rigth: 0%;   */        
-               height: 648px;
-               /*background: url(images/bibliografic.jpg) no-repeat fixed right;
-               background-size: 50% 50%;
-/*background-size: cover;
-	/*background-repeat: no-repeat;
-	background-size: 100% 100% ;*/
-
-        
+                display: none;       
+               height: 648px;       
             }
+
             #encabezado{
                 width: 100%;
                 height: 10%;
                 border-bottom: 5px dotted grey;
-                display: flex;
+                padding: 4px;
+                
             }
-            #bienv{
-                width: 50%;
-                height: 100%;
-            }
-            #bienv_text{
+            h5{
                 float: left;
                 font-size: 30px;
                 padding: 5px;
                 color: #D56203;
             }
-            #navegacion{
-                width: 50%;
-                height: 100%;
-                /*text-align: right;*/
-                padding: 5px;
-                justify-content: center;
-                align-items: center;
-                 display: flex;
-            }
-            #campo,#siguiente,#caret{
-               
-            }
-            #campo{
-                width: 30%;
-                text-align: center;
-                justify-content: center;
-                 margin-right: 3%;
-                 margin-left: 3%;
-            }
-            #siguiente{
-                font-family: times new roman;
-                font-size: 20px;
-                margin-right: 5%;
-            }
-            #anterior{
-                /*visibility: hidden;*/
-                /*display: none;*/
-                font-family: times new roman;
-                font-size: 20px;
-                margin-left: 3%;
-            }
-            #caret{
-                
-                font-size: 1em;
-                
-            }
-            #caretant{
-                /*visibility: hidden;*/
-                /*display: none;*/
-                font-size: 1em;               
-            }
             #conten{
                 width: 100%;
                 height: 90%;
-            }
-            #titulo{
-                width: 100%;
-                height: 10%;
                 margin-top: 5px;
-                text-align: center;
+                padding: 5px;
                 justify-content: center;
+                align-items: center;
             }
-            #titulos{
+            #titulito{
                 margin: 0px auto;
                 width: 90%;
-                height: 100%;
-                     background-color: #B5D2F5;
-                text-align: center;
-                justify-content: center;
-                padding: 10px;
-                            -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
-  clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
-     
-            }
-            #titulo_video{
-                font-family: times new roman;
-                font-size: 35px;
-                color: orange;
-                margin: 0px auto;
-                padding-bottom: 3px;
-                margin-bottom: 3px;
-                text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+                height: 10%;
+                padding: 5px;
+                background-color: #226ab9;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
             }
             #preguntas{
+                margin: 0px auto;
                 width: 90%;
-                height: 90%;
+                height: auto;
                 margin: 0px auto;
                 padding: 15px;
+                border: 2px solid #226ab9;
             }
             #conten_pregunta{
                 width: 100%;
                 height: 10%;
-                padding: 10px;
             }
             #titulo_pregunta{
                 font-family: times new roman;
-                font-size: 30px;
+                font-size: 25px;
             }
             .respuestas{
                 width: 100%;
@@ -133,9 +66,32 @@
             #pregunta{
                 padding: 10px;
             }   
-#pregunta input[type=checkbox] {
-  display: none;
+/*div,
+select {
+  margin: 8px;
 }
+
+ Etiquetas para entradas marcadas 
+input:checked + label {
+  color: red;
+}
+
+ Elemento Radio, cuando está marcado 
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+ Elemento Checkbox, cuando está marcado 
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+ Elementos Option, cuando se seleccionan 
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}*/
+
 #pregunta label {
   display: inline-block;
   margin: 4px;
@@ -147,11 +103,9 @@
   cursor: pointer;
 }
 
-#pregunta label:hover {
-  background: #C4E7E7;
-}
 
-#pregunta input[type=checkbox]:checked + label {
+
+#pregunta input[type=radio]:checked + label {
   background: #04B404;
   color: #FAFAFA;
 }
@@ -168,6 +122,20 @@
     color: #000;
     background-color: #C4E7E7;
     border: 2px solid #CB8306;
+}
+input[type=radio] {
+  font-size: 2em;
+}
+#iconito,#enc{
+    display: inline;
+}
+#enc{
+    color: white;
+}
+#iconito{
+    font-size: 2em;
+    color: white;
+    margin-right: 7px;
 }
 
 
@@ -321,38 +289,42 @@
       padding-top: 0px;
   }
 
-  #correcto{
+
+ #popup-video{
+      display: flex;
+      border-bottom: 5px dotted gray;
+      margin-bottom: 5px;
+  }
+   #video_tut{
+      font-size: 2em;
+      margin-right: 15px;
+      padding-top: 5px;
+  } 
+  #puntaje{
+      margin-right: 5px;
+  }
+  #puntaje,#res{
+      font-size: 30px;
+      color: #226ab9;
+  }
+  #aprobado{
       display: none;
-      color: green;
-      font-size: 3em;
-      margin-right: 10px;
+      width: 400px;
+      text-align: left;
   }
-  #correcto2{
+  #lbl_nombre{
+      float: right;
+  }
+  #lbl_ti{
+      float: right;
+  }
+  #confirmar{
+      float: right;
+  }
+  #mensajito2{
       display: none;
-      color: green;
-      font-size: 3em;
-      margin-right: 10px;
   }
-  #incorrecto{
+  #mensajito{
       display: none;
-      color: red;
-      font-size: 3em;
-      margin-right: 10px;
   }
-  #incorrecto2{
-      display: none;
-      color: red;
-      font-size: 3em;
-      margin-right: 10px;
-  }
-  #incorrecto3{
-      display: none;
-      color: red;
-      font-size: 3em;
-      margin-right: 10px;
-  }
-  #correcto > label,#incorrecto > label,#incorrecto2 > label,#incorrecto3 > label{
-      color: black;
-       margin-left: 15px;
-       font-size: 23px;
-  }
+

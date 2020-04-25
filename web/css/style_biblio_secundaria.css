@@ -2,6 +2,9 @@
                 padding: 0px;
                 margin: 0px;
             }
+            body{
+               background-color:  #EFFBF8;
+            }
             #contenido{
                 display: none;
                 animation-duration: 1.5s;

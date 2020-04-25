@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_contenido_secundaria_17.css">
+        <link rel="stylesheet" type="text/css" href="css/style_conten_secundaria_17.css">
         <title>Contenido 17</title>
     </head>
     <body>
@@ -30,8 +30,15 @@
                 
                 <div id="camp">
                     <label>
-                        Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum
-                    </label>
+                        Reciclar es volver a usar los productos. Es un proceso en donde los materiales son transformardos en otros nuevos que son utilizados otra vez.<br>
+
+<br>
+
+Cuando creamos basura, es decir, cuando juntamos todo tipo de materiales en la papelera, es cuando mezclamos de manera irresponsable. Esto es porque si no separamos, sólo se podrá reciclar un 30% de esa basura. Si en lugar de eso separámos, se pueden reciclar el 90% de los desechos.
+<br><br>
+Para que exista un buen reciclaje general, cada uno de nosotros debe ayudar en el proceso de separación de residuos. Así no generamos esa basura que no se puede reutilizar en tanta cantidad como si la reciclásemos.
+<br>
+ </label>
                     <br>
                     <img id="imgen" src="images/caneca_verde.png" alt="">
                 </div>

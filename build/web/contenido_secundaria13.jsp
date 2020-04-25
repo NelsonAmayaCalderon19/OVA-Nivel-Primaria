@@ -22,8 +22,7 @@
             <div id="conten">
                 <div id="conten2">
                 <div id="conten21">
-                    <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Papel y Cartón:</strong></label><br> <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.
-                   </p></i>
+                    <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Papel y Cartón:</strong></label><br> <p> Se obtiene de los árboles, por eso, el reciclado del papel va a evitar que se corten y talen muchos árboles. Se puede reciclar todo tipo de papel y de cartón y para su recogida es importante eliminar cualquier elemento extraño (como por ejemplo, grapas, cintas adhesivas, plásticos..., etc). </p></i>
             </div>
                     <div id="conten22">
                 <img class="imgen" src="images/caneca_azul.png" alt="">
@@ -34,14 +33,12 @@
                 <img class="imgen2" src="images/caneca_azul.png" alt="">
             </div>
                     <div id="conten32">
-                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Chatarra y Metal:</strong></label><br> <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.
-                   </p></i>
+                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Chatarra y Metal:</strong></label><br> <p> Se obtiene de los árboles, por eso, el reciclado del papel va a evitar que se corten y talen muchos árboles. Se puede reciclar todo tipo de papel y de cartón y para su recogida es importante eliminar cualquier elemento extraño (como por ejemplo, grapas, cintas adhesivas, plásticos..., etc). </p></i>
             </div>
             </div>
                 <div id="conten4">
                 <div id="conten41">
-                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Pilas y Baterias:</strong></label><br> <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.
-                   </p></i>
+                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Pilas y Baterias:</strong></label><br> <p>Muchas pilas contienen metales muy tóxicos y peligrosos para el medio ambiente, por eso, es tan importante saber que las pilas gastadas que no son recargables se deben echar a los contenedores especiales que existen para la recogida de estos productos en comercios, establecimientos y en las zonas urbanas. O también en un punto limpio.</p></i>
             </div>
                     <div id="conten42">
                         <img class="imgen3" src="images/caneca_azul.png" alt="">

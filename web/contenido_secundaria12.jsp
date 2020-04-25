@@ -26,9 +26,9 @@
             </div>
             <div id="conten_mensaje">
                 <div id="mensaje">
-                    <strong><p id="mensajito">En este Objeto Virtual<br> conocerás y aprenderás algunos<br> tips en el Manejo efectivo <br>
-                        de los Residuos Sólidos, que puedes poner<br>
-                        en práctica desde tu casa o colegio<br><Strong>Así que Empecemos Amigos</strong></p></strong>
+                    <strong><p id="mensajito">Ahora Aprenderás<br> conocerás y aprenderás algunos<br> que materiales puedes <br>
+                        reciclar desde tu casa o colegio<br>
+                        clasificandoloes por categorias, espero y lo<br><Strong>pongas en práctica</strong></p></strong>
                 </div>
                 
             </div>

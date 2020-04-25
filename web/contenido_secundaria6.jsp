@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_contenido_secundaria_6.css">
+        <link rel="stylesheet" type="text/css" href="css/style_conten_secundaria_6.css">
         <title>Contenido 6</title>
     </head>
     <body>
@@ -38,8 +38,9 @@
                     
                         
                         <div id="camp1">
-                        <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p>
-                    </div>
+                            <p id="texto">El verde se usa en contenedores o papeleras de reciclaje que recibirán envases de vidrio, como cualquier tipo de recipiente o botella de vidrio, sean alcohólicas o sin alcohol, refrescos, etc. Como medida general antes de depositar los materiales de vidrio se ruega quitar los tapones, papeles, adhesivos, corchos, etc que puedan llegar a estar pegados en la botella, de esta forma el vidrio llega directo a la procesadora sin tener que limpiarlo antes por un técnico de la empresa, algo que alza los costes y alarga tiempos del reciclaje del vidrio.<br><br>
+
+También se recomienda no incluir cerámica o cristal, ya que son materiales parecidos pero a la vez muy distintos que el vidrio mismo, y puede llevar a encarecer el reciclaje de manera significativa, algo que no es necesario y se puede evitar.</p> </div>
                     
                 </div>
                 </div>
