@@ -24,7 +24,7 @@
                     <h3 id="aplicacion">Juega con EducaPlay</h3>
                 </div>
                 <div id="juego">
-                    <iframe id="frame_juego" width="80%" height="450px" frameborder="0" src="https://es.educaplay.com/juego/5419689-recicla_reutiliza_y_reduce.html"></iframe>
+                    <iframe id="frame_juego" width="80%" height="450px" frameborder="0" src="https://es.educaplay.com/juego/5567298-clasifica_los_residuos.html"></iframe>
                 </div>
             </div>
         </div>
