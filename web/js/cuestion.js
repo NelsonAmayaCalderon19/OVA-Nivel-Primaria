@@ -72,6 +72,9 @@ if(porcentaje>=80){
         //setTimeout(function(){document.getElementById('tarjeta').focus()}, 1);    
       return false;     
     }else{
+        $('body,html').animate({
+        scrollTop: '0px'
+            }, 500);
        $('input:radio[name=pregunta1]:checked').removeAttr('checked');
 $('input:radio[name=pregunta2]:checked').removeAttr('checked');
 $('input:radio[name=pregunta3]:checked').removeAttr('checked');
@@ -116,6 +119,9 @@ $('input:radio[name=pregunta7]:checked').removeAttr('checked');
 $('input:radio[name=pregunta8]:checked').removeAttr('checked');
 $('input:radio[name=pregunta9]:checked').removeAttr('checked');
 $('input:radio[name=pregunta10]:checked').removeAttr('checked');
+$('body,html').animate({
+        scrollTop: '0px'
+            }, 500);
 });      
 $(document).ready(function() {
     setTimeout(function() {

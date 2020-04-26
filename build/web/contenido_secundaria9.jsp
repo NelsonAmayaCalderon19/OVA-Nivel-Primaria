@@ -28,7 +28,7 @@
                 </div>
                 <div id="preguntas">
                     <div id="conten_pregunta">
-                    <h1 id="titulo_pregunta">Observa el siguiente ejemplo: Si tu vas a la tienda y compras un refresco en envase de plástico y un pastel envuelto en una servilleta, luego de comertelos ¿en que colores de recipientes debes arrojar la servilleta y el embase desechable respectivamente?</h1>
+                    <h1 id="titulo_pregunta">Observa el siguiente ejemplo: Si tu vas a la tienda y compras un refresco en envase de plástico y un pastel envuelto en una servilleta, luego de comertelos ¿en que colores de recipientes debes arrojar la servilleta y el embase desechable respectivamente? - Recuerda que puedes seleccionar mas de una opción</h1>
                     </div><br><br><br>
                     <div id="pregunta">
                         <form name="formulario" id="formulario">

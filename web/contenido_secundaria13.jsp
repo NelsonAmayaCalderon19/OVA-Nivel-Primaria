@@ -33,7 +33,7 @@
                 <img class="imgen2" src="images/caneca_azul.png" alt="">
             </div>
                     <div id="conten32">
-                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Chatarra y Metal:</strong></label><br> <p> Se obtiene de los árboles, por eso, el reciclado del papel va a evitar que se corten y talen muchos árboles. Se puede reciclar todo tipo de papel y de cartón y para su recogida es importante eliminar cualquier elemento extraño (como por ejemplo, grapas, cintas adhesivas, plásticos..., etc). </p></i>
+                <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Chatarra y Metal:</strong></label><br> <p>Son el latón (se puede encontrar en material de fontanería como por ejemplo en los grifos del fregadero), el plomo (se puede encontrar en material de fontanería como por ejemplo, las tuberías de una casa), el cobre (se puede encontrar en los cables eléctricos de una casa), el estaño (suelen utilizarlo los fontaneros para soldar) y el aluminio (se suele utilizar en las ventanas de las casas).</p></i>
             </div>
             </div>
                 <div id="conten4">

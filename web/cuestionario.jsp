@@ -77,6 +77,6 @@
 			</div>
 		</div>
       <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-      <script src="js/cuestionario.js" type="text/javascript"></script>
+      <script src="js/cuestion.js" type="text/javascript"></script>
     </body>
 </html>

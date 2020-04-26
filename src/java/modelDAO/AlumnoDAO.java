@@ -24,11 +24,12 @@ public class AlumnoDAO {
     ResultSet rs;
     int r;
      public int agregar(Alumno c){
-    String sql="insert into alumno(identificacion, nombre, id_tipo, fecha) values(?,?,1,NOW())";
+    String sql="insert into alumno(identificacion, nombre, id_tipo, fecha) values(?,?,?,NOW())";
     try{
     ps=con.prepareStatement(sql);
     ps.setString(1, c.getIdentificacion());
     ps.setString(2, c.getNombre());
+    ps.setInt(3, c.getTipo_doc());
     ps.executeUpdate();
     }catch(Exception ex){
     }
@@ -45,10 +46,11 @@ public class AlumnoDAO {
     }
       
       public int descripcion_Certificado(int dato, Alumno a){
-    String sql="insert into cert_desc(numero_cert,id_alumno,id_nivel,fecha) values("+dato+",?,1,NOW())";
+    String sql="insert into cert_desc(numero_cert,id_alumno,id_nivel,fecha) values("+dato+",?,?,NOW())";
     try{        
     ps=con.prepareStatement(sql);
     ps.setString(1, a.getIdentificacion());
+    ps.setInt(2, a.getTipo_doc());
     ps.executeUpdate();
     }catch(Exception ex){
     }

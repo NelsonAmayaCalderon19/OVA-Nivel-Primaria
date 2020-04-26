@@ -5,7 +5,6 @@
  */
 package control;
 
-
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -41,11 +40,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import modelDAO.AlumnoDAO;
 import modelo.Alumno;
+
 /**
  *
- * @author NELSON
+ * @author TURBO Core i3
  */
-public class Certificado extends HttpServlet {
+public class Certificado_Secundaria extends HttpServlet {
 Alumno alm = new Alumno();
 AlumnoDAO almdao = new AlumnoDAO();
 int dato=0;
@@ -60,7 +60,7 @@ int dato=0;
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       response.setContentType("text/html;charset=UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("UTF-8");
         String accion = request.getParameter("accion");
 
@@ -76,13 +76,20 @@ int dato=0;
                     
                     String id = request.getParameter("tarjeta2");
                     String nombre = request.getParameter("nombre2");
-                    if(almdao.buscar_Num_cert(1, id)==true){
+                    String tipo= request.getParameter("tipo");
+                    String fin;
+                    if(tipo.equalsIgnoreCase("CC")){
+                    fin="2";
+                    }else{
+                    fin="1";
+                    }
+                    if(almdao.buscar_Num_cert(2, id)==true){
                   
                     PrintWriter pw = response.getWriter();
                         pw.println("<script type=\"text/javascript\">");
 pw.println("alert('Usted ya Fue Certificado anteriormente en este Nivel');");
 pw.println("</script>");                  
-RequestDispatcher rd=request.getRequestDispatcher("primaria.jsp");
+RequestDispatcher rd=request.getRequestDispatcher("secundaria.jsp");
 rd.include(request, response);
 
                     }else{
@@ -91,7 +98,7 @@ rd.include(request, response);
                     dato=almdao.buscar_Num_cert2();
                     alm.setIdentificacion(id);
                     alm.setNombre(nombre);
-                    alm.setTipo_doc(1);
+                    alm.setTipo_doc(Integer.parseInt(fin));
                     almdao.agregar(alm);
                     almdao.descripcion_Certificado(dato,alm);
                      response.setContentType("application/pdf");
@@ -119,11 +126,11 @@ documento.open();
         info.add(new Phrase(Chunk.NEWLINE));
         info.add(new Phrase(Chunk.NEWLINE));
         info.add(new Phrase("Colegio Luis Carlos Galán Sarmiento                                                             ",fontinfo2));
-        info.add(new Phrase("    Nivel             ",fontinfo));
+        info.add(new Phrase("   Nivel             ",fontinfo));
         info.setAlignment(Element.ALIGN_RIGHT);  
         info2.add(new Phrase(Chunk.NEWLINE));
         info2.add(new Phrase("Objeto Virtual de Aprendizaje - Manejo de Residuos Sólidos                      ",fontinfo2));
-        info2.add(new Phrase("    Primaria          ",fontinfo));
+        info2.add(new Phrase("    Secundaria          ",fontinfo));
         info2.add(new Phrase(Chunk.NEWLINE));
         info.setAlignment(Element.ALIGN_RIGHT);       
         info2.setAlignment(Element.ALIGN_RIGHT);
@@ -159,7 +166,7 @@ documento.open();
         par3.add(new Phrase(nombre,fonttitulo4));
         par3.setAlignment(Element.ALIGN_CENTER); 
         documento.add(new Phrase(Chunk.NEWLINE));
-        par4.add(new Phrase("Identificado con TI. No. "+id,fonttitulo4));
+        par4.add(new Phrase("Identificado con "+tipo+". No. "+id,fonttitulo4));
         par4.setAlignment(Element.ALIGN_CENTER); 
         documento.add(par3); 
         documento.add(par4); 
@@ -168,7 +175,7 @@ documento.open();
         documento.add(new Phrase(Chunk.NEWLINE));
         par5.add(new Phrase("Por haber Aprobado el Objeto Virtual de Aprendizaje (OVA)",fonttitulo5));
         documento.add(new Phrase(Chunk.NEWLINE));
-        par5.add(new Phrase(" en el Manejo de Residuos Sólidos - Nivel Básica Primaria",fonttitulo5));
+        par5.add(new Phrase(" en el Manejo de Residuos Sólidos - Nivel Básica Secundaria",fonttitulo5));
         par5.setAlignment(Element.ALIGN_CENTER); 
         documento.add(par5); 
         documento.add(new Phrase(Chunk.NEWLINE));
@@ -193,7 +200,7 @@ documento.open();
 //        imagene.scaleToFit(200,150);
 //        documento.add(imagene);
         documento.close();
-        RequestDispatcher rd=request.getRequestDispatcher("primaria.jsp");
+        RequestDispatcher rd=request.getRequestDispatcher("secundaria.jsp");
 rd.include(request, response);
           }catch(Exception e){
           } 
@@ -206,6 +213,7 @@ rd.include(request, response);
             }   
             
     }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

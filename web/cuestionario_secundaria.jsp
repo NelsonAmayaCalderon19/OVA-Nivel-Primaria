@@ -13,7 +13,7 @@
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
         <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/style_cuestion_secundaria.css">
+<link rel="stylesheet" type="text/css" href="css/style_cuestionario_secundaria.css">
         <title>Cuestionario Secundaria</title>
     </head>
     <body>
@@ -30,7 +30,7 @@
                     <%
                         Cuestion cad = new Cuestion();
                     ResultSet rs;
-                    rs=cad.listarTodos();
+                    rs=cad.listarTodosSecundaria();
                     
                     %> 
                     <%while(rs.next()){%>                   
@@ -66,9 +66,13 @@
                             <div id="mensajito2"><p>No Obtuviste el Puntaje Necesario para Ser Certificado</p></div>
                             <div id="mensajito"><p>Obtenen tu Certificado, Solo Ingresa los Siguientes Campos</p></div>
                             <div id="aprobado">
-                                  <form name="reporte" action="Certificado?menu=Certificar" target="_blank" method="POST">
+                                  <form name="reporte" action="Certificado_Secundaria?menu=Certificar" target="_blank" method="POST">
                                       <label id="lbl_nombre">Nombre: <input type="text" id="nombre" name="nombre" autocomplete="off"/><input type="hidden" name="nombre2" id="nombre2" /></label><br>
-                            <label id="lbl_ti">TI: <input type="text" id="tarjeta" name="tarjeta" autocomplete="off"/><input type="hidden" name="tarjeta2" id="tarjeta2" /></label><br><br>                                                                  
+                                      <label id="lbl_ti">Tipo Documento: <select name="tipo" id="cars" class="select">
+  <option value="TI">Tarjeta Identidad</option>
+  <option value="CC">Cedula Ciudadania</option>
+</select></label><br>
+<label id="lbl_ti">Número: <input type="text" id="tarjeta" name="tarjeta" autocomplete="off"/><input type="hidden" name="tarjeta2" id="tarjeta2" /></label><br><br><br>                                                                  
             <button type="submit" name="accion" value="Generar" onclick="return validarFormulario()" class="btn btn-outline-primary" id="confirmar" >Aceptar</button>
         </form> 
                                 </form>
@@ -77,6 +81,6 @@
 			</div>
 		</div>
       <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-      <script src="js/cuestionario_secundaria.js" type="text/javascript"></script>
+      <script src="js/cuestion_secundaria.js" type="text/javascript"></script>
     </body>
 </html>
