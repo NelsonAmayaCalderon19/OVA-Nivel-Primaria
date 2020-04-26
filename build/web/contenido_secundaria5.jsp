@@ -24,7 +24,7 @@
             <div id="cont">
                 <div id="titulo">
                     <div id="titulos">
-                        <h1 id="titulo_video">Contenedor Gris o Verde Oscuro</h1>
+                        <h1 id="titulo_video">Contenedor Gris</h1>
                     </div>  
                 </div>
                 

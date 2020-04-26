@@ -40,7 +40,7 @@ Para que exista un buen reciclaje general, cada uno de nosotros debe ayudar en e
 <br>
  </label>
                     <br>
-                    <img id="imgen" src="images/caneca_verde.png" alt="">
+                    <img id="imgen" src="images/flecha.png" alt="">
                 </div>
                 </div>
         </div>

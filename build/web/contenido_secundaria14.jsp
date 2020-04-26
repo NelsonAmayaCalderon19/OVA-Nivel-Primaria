@@ -25,12 +25,12 @@
                     <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Pinturas y Aceite:</strong></label><br> <p>Este tipo de sustancias contienen materiales tóxicos y peligrosos para el hombre, por eso, se debe respetar el siguiente consejo que consiste en no echar a la basura aerosoles, esmaltes, aguarrás, tintes y protectores de madera.</p></i>
             </div>
                     <div id="conten22">
-                <img class="imgen" src="images/caneca_azul.png" alt="">
+                <img class="imgen" src="images/pintar.png" alt="">
             </div>
             </div>
                 <div id="conten3">
                 <div id="conten31">
-                <img class="imgen2" src="images/caneca_azul.png" alt="">
+                <img class="imgen2" src="images/agua_1.png" alt="">
             </div>
                     <div id="conten32">
                 <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Plásticos:</strong></label><br> <p>Con el reciclaje de plásticos se reducen residuos disminuyendo su impacto e influencia en el ambiente. Además se reduce el consumo de petróleo, un bien escaso, que hai que repartir y reducir su uso.</p></i>
@@ -41,7 +41,7 @@
                 <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Vidrios:</strong></label><br> <p>El reciclado de vidrios ahorra energía ya que éste siempre se puede reciclar. Para su recogida se requiere eliminar del vidrio objetos tales como tapones, alambres, etiquetas..., etc. Se obtienen muchos beneficios gracias al reciclaje del vidrio, como, la no extracción de materias primas, el menor consumo de energía y la disminución del volumen de residuos que se deben recoger y eliminar.</p></i>
             </div>
                     <div id="conten42">
-                        <img class="imgen3" src="images/caneca_azul.png" alt="">
+                        <img class="imgen3" src="images/vidrio.png" alt="">
             </div>
             </div>
             </div>

@@ -31,10 +31,10 @@
                         en práctica desde tu casa o colegio<br><Strong>Así que Empecemos Amigos</strong></p></strong>
                 </div>
                 <div id="imagen">
-                    <img class="imgen" src="images/icon_reciclaje.png" alt="">
-                    <img class="imgen2" src="images/icon_reciclaje.png" alt="">
-                    <img class="imgen3" src="images/icon_reciclaje.png" alt="">
-                    <img class="imgen4" src="images/icon_reciclaje.png" alt="">
+                    <img class="imgen" src="images/caneca_azul.png" alt="">
+                    <img class="imgen2" src="images/caneca_amarilla.png" alt="">
+                    <img class="imgen3" src="images/caneca_verde.png" alt="">
+                    <img class="imgen4" src="images/caneca_roja.png" alt="">
                 </div>
             </div>
             </div>

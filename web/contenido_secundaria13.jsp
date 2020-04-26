@@ -25,12 +25,12 @@
                     <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Papel y Cartón:</strong></label><br> <p> Se obtiene de los árboles, por eso, el reciclado del papel va a evitar que se corten y talen muchos árboles. Se puede reciclar todo tipo de papel y de cartón y para su recogida es importante eliminar cualquier elemento extraño (como por ejemplo, grapas, cintas adhesivas, plásticos..., etc). </p></i>
             </div>
                     <div id="conten22">
-                <img class="imgen" src="images/caneca_azul.png" alt="">
+                <img class="imgen" src="images/caja_1.png" alt="">
             </div>
             </div>
                 <div id="conten3">
                 <div id="conten31">
-                <img class="imgen2" src="images/caneca_azul.png" alt="">
+                <img class="imgen2" src="images/soda.jpg" alt="">
             </div>
                     <div id="conten32">
                 <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Chatarra y Metal:</strong></label><br> <p>Son el latón (se puede encontrar en material de fontanería como por ejemplo en los grifos del fregadero), el plomo (se puede encontrar en material de fontanería como por ejemplo, las tuberías de una casa), el cobre (se puede encontrar en los cables eléctricos de una casa), el estaño (suelen utilizarlo los fontaneros para soldar) y el aluminio (se suele utilizar en las ventanas de las casas).</p></i>
@@ -41,7 +41,7 @@
                 <i id="mano1"  class=" fa fa-angellist"><label id="negrita"><strong id="negrita">Pilas y Baterias:</strong></label><br> <p>Muchas pilas contienen metales muy tóxicos y peligrosos para el medio ambiente, por eso, es tan importante saber que las pilas gastadas que no son recargables se deben echar a los contenedores especiales que existen para la recogida de estos productos en comercios, establecimientos y en las zonas urbanas. O también en un punto limpio.</p></i>
             </div>
                     <div id="conten42">
-                        <img class="imgen3" src="images/caneca_azul.png" alt="">
+                        <img class="imgen3" src="images/bateria.png" alt="">
             </div>
             </div>
             </div>
