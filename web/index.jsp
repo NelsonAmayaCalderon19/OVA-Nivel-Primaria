@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,6 +16,7 @@
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
         <link rel="stylesheet" type="text/css" href="css/index_style.css">
         <title>Colegio Luis Carlos Galán</title>
+         
     </head>
     <body>
         <header class="encabezado">

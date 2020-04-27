@@ -8,7 +8,7 @@ body{
 }
          .encabezado{
              margin: 0px auto;
-   /* border: solid 2px #000;*/
+    border: solid 2px #000;
 	width: 97%;
 	height: 115px;
 	display: flex;

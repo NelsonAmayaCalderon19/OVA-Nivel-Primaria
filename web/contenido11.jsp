@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_contenido11.css">
+        <link rel="stylesheet" type="text/css" href="css/style_contenido_primaria11.css">
         <title>Contenido 11</title>
     </head>
     <body>
@@ -38,6 +38,6 @@
             </div>
             </div>
         </div>
-<script src="js/contenido11.js" type="text/javascript"></script>
+<script src="js/contenido_primaria11.js" type="text/javascript"></script>
     </body>
 </html>

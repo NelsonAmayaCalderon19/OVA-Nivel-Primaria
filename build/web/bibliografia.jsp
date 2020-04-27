@@ -12,7 +12,7 @@
     <body>
         <div id="contenido">            
                 <div id="bienv">
-                    <h6 id="bienv_text">BIBLIOGRAFIA</h6>
+                    <h6 id="bienv_text">TEXTOS DE APOYO</h6>
                 </div>              
             <div id="conten_biblio">
                 <div id="biblio">

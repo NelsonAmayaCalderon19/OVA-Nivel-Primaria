@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-04-2020 a las 02:01:12
--- Versión del servidor: 10.4.10-MariaDB
--- Versión de PHP: 7.3.12
+-- Tiempo de generación: 28-04-2020 a las 01:45:04
+-- Versión del servidor: 10.4.11-MariaDB
+-- Versión de PHP: 7.4.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -40,35 +40,19 @@ CREATE TABLE `alumno` (
 --
 
 INSERT INTO `alumno` (`identificacion`, `nombre`, `id_tipo`, `fecha`) VALUES
-('034823759', 'hdksdj fjhs fjshd', 1, '2020-04-07 15:49:41'),
-('1004845648', 'Nelson Amaya Calderon', 1, '2020-04-07 14:45:34'),
-('1234567890', 'Pepito Perez', 1, '2020-04-07 15:57:07'),
-('233917491', 'Pedro Picapiedra', 1, '2020-04-12 11:32:36'),
-('234682658', 'Ana delina', 1, '2020-04-12 11:37:05'),
-('268234628', 'Andres Cequeda', 1, '2020-04-11 18:46:34'),
-('2893497349', 'Pedro el Escamoso', 1, '2020-04-12 11:30:12'),
-('3264634815', 'Jose Arias', 1, '2020-04-11 18:52:00'),
-('3328634332', 'Frito', 1, '2020-04-11 18:55:51'),
-('34296598932', 'Jose Andres', 1, '2020-04-07 14:53:23'),
-('3456426133', 'ruw eyruwey', 1, '2020-04-07 15:50:58'),
-('34623846389', 'hdfkhsdfkja', 1, '2020-04-11 18:39:24'),
-('348653', 'dsjhfkjsd', 1, '2020-04-07 15:25:40'),
-('362836872', 'Antolin', 1, '2020-04-11 18:37:32'),
-('38798237984', 'Que mas pues', 1, '2020-04-12 11:53:29'),
-('43527614', 'Hola ', 1, '2020-04-11 19:02:22'),
-('439846939', 'Ana Gabriel', 1, '2020-04-12 11:46:30'),
-('45912375127', 'Francisco', 1, '2020-04-11 18:58:03'),
-('479235823', 'Pepito Perez', 1, '2020-04-11 18:27:12'),
-('47982379482', 'Radamel Falcao', 1, '2020-04-11 18:35:13'),
-('49871471', 'Joselito Carnaval', 1, '2020-04-11 18:28:32'),
-('60383019', 'Estela Calderon', 1, '2020-04-07 14:47:43'),
-('6483245623', 'Franchesco', 1, '2020-04-11 19:00:53'),
-('653453583', 'Pedro Pablo', 1, '2020-04-07 14:58:13'),
-('73624826', 'jdjkfsdjhds', 1, '2020-04-07 15:42:25'),
-('7628457643', 'Joselito', 1, '2020-04-07 15:24:26'),
-('8347938429', 'Esto Fue', 1, '2020-04-12 11:50:13'),
-('844638526', 'hjdfgjsd dshfjsdgf', 1, '2020-04-07 15:31:17'),
-('897523847', 'Eduardo Arias', 1, '2020-04-07 14:54:43');
+('1093798043', 'Nelson Amaya', 2, '2020-04-25 19:33:50'),
+('1293934734', 'Andres Rojas', 2, '2020-04-26 09:47:46'),
+('21454654854', 'Nelson Amaya', 2, '2020-04-27 16:21:35'),
+('23442334', 'Jose Orozco', 1, '2020-04-25 20:19:00'),
+('3454365', 'Fercho Ortiz', 1, '2020-04-26 09:51:08'),
+('3544326432', 'Pedro Arias', 1, '2020-04-25 20:08:31'),
+('4234123324', 'Stella Calderon', 2, '2020-04-25 20:16:05'),
+('4362432645', 'Jaider Amaya', 1, '2020-04-26 09:52:57'),
+('53532562', 'Adriana Rojas', 2, '2020-04-26 09:49:23'),
+('53643643', 'Jose Padilla', 1, '2020-04-26 09:56:03'),
+('537374656', 'Carlos Blanco', 1, '2020-04-26 09:54:56'),
+('543524534', 'Ana Castillo', 2, '2020-04-26 09:56:58'),
+('65465373', 'Geovanny Calderon', 2, '2020-04-26 09:48:32');
 
 -- --------------------------------------------------------
 
@@ -97,23 +81,7 @@ INSERT INTO `certificado` (`numero`) VALUES
 (10),
 (11),
 (12),
-(13),
-(14),
-(15),
-(16),
-(17),
-(18),
-(19),
-(20),
-(21),
-(22),
-(23),
-(24),
-(25),
-(26),
-(27),
-(28),
-(29);
+(13);
 
 -- --------------------------------------------------------
 
@@ -133,35 +101,19 @@ CREATE TABLE `cert_desc` (
 --
 
 INSERT INTO `cert_desc` (`numero_cert`, `id_alumno`, `id_nivel`, `fecha`) VALUES
-(1, '1004845648', 1, '2020-04-07'),
-(2, '60383019', 1, '2020-04-07'),
-(3, '34296598932', 1, '2020-04-07'),
-(4, '897523847', 1, '2020-04-07'),
-(5, '653453583', 1, '2020-04-07'),
-(6, '7628457643', 1, '2020-04-07'),
-(7, '348653', 1, '2020-04-07'),
-(8, '844638526', 1, '2020-04-07'),
-(9, '73624826', 1, '2020-04-07'),
-(10, '034823759', 1, '2020-04-07'),
-(11, '3456426133', 1, '2020-04-07'),
-(12, '1234567890', 1, '2020-04-07'),
-(13, '479235823', 1, '2020-04-11'),
-(14, '49871471', 1, '2020-04-11'),
-(15, '47982379482', 1, '2020-04-11'),
-(16, '362836872', 1, '2020-04-11'),
-(17, '34623846389', 1, '2020-04-11'),
-(18, '268234628', 1, '2020-04-11'),
-(19, '3264634815', 1, '2020-04-11'),
-(20, '3328634332', 1, '2020-04-11'),
-(21, '45912375127', 1, '2020-04-11'),
-(22, '6483245623', 1, '2020-04-11'),
-(23, '43527614', 1, '2020-04-11'),
-(24, '2893497349', 1, '2020-04-12'),
-(25, '233917491', 1, '2020-04-12'),
-(26, '234682658', 1, '2020-04-12'),
-(27, '439846939', 1, '2020-04-12'),
-(28, '8347938429', 1, '2020-04-12'),
-(29, '38798237984', 1, '2020-04-12');
+(1, '1093798043', 2, '2020-04-25'),
+(2, '3544326432', 1, '2020-04-25'),
+(3, '4234123324', 2, '2020-04-25'),
+(4, '23442334', 1, '2020-04-25'),
+(5, '1293934734', 2, '2020-04-26'),
+(6, '65465373', 2, '2020-04-26'),
+(7, '53532562', 2, '2020-04-26'),
+(8, '3454365', 1, '2020-04-26'),
+(9, '4362432645', 1, '2020-04-26'),
+(10, '537374656', 1, '2020-04-26'),
+(11, '53643643', 1, '2020-04-26'),
+(12, '543524534', 2, '2020-04-26'),
+(13, '21454654854', 2, '2020-04-27');
 
 -- --------------------------------------------------------
 
@@ -227,7 +179,17 @@ INSERT INTO `pregunta` (`id_cuestionario`, `id`, `descripcion`) VALUES
 (1, 7, '¿Cuántas veces se puede reciclar el vidrio?'),
 (1, 8, '¿Sabes cuál de estos objetos no deben tirarse en el contenedor de vidrio?'),
 (1, 9, '¿De que color es el contenedor para reciclar el papel o cartón?'),
-(1, 10, '\"Es el uso de un producto más de una vez en su forma original, para el mismo o nuevo propósito. Lo que para unos es basura, para otros es un recurso. Muchos materiales o productos desechados pueden ser reutilizados para su función original o para otros usos\" a cual de las 3R corresponde el texto anterior');
+(1, 10, '\"Es el uso de un producto más de una vez en su forma original, para el mismo o nuevo propósito. Lo que para unos es basura, para otros es un recurso. Muchos materiales o productos desechados pueden ser reutilizados para su función original o para otros usos\" a cual de las 3R corresponde el texto anterior'),
+(2, 1, '¿De los siguientes colores de contenedores cual no corresponde a los vistos anteriormente?'),
+(2, 2, '¿Qué es el Medio Ambiente?'),
+(2, 3, '¿En Cuál Contenedor se desechan los objetos de Vidrio?'),
+(2, 4, 'Algunos materiales reciclables son...'),
+(2, 5, 'El color del contenedor establecido para la recolección de residuos sólidos orgánicos es:'),
+(2, 6, 'En que Contenedor debes depositar residuos como: medicamentos vencidos, o residuos con el Simbolo de Peligro'),
+(2, 7, 'En Contenido propuesto en la OVA, se dice que: \"si separamos adecuadamente los desechos que generamos, nos podremos dar de cuenta que podemos reciclar hasta un ... \"'),
+(2, 8, '¿Cuál de los siguientes residuos,no está elaborado a partir de sustancias tóxicas, perjudiciales para el ser humano?'),
+(2, 9, 'Según tu Criterio, Por cada tonelada de papel reciclado, estamos salvando hasta ____'),
+(2, 10, 'Entre los beneficios que se obtienen al reciclar se dice que: Por cada dos toneladas de plástico que se recicla, se ahorra \"________\" de petróleo.');
 
 -- --------------------------------------------------------
 
@@ -258,7 +220,17 @@ INSERT INTO `preg_opc` (`id_cuestionario`, `id_pregunta`, `opc1`, `opc2`, `opc3`
 (1, 7, 'Diez Veces', 'Una Vez', 'Para Siempre', 'Tres Veces'),
 (1, 8, 'Una Bombilla', 'Objetos de Cristal', 'Cerámica o Porcelana', 'Todos los Anteriores'),
 (1, 9, 'Azul', 'Amarillo', 'Verde', 'Gris'),
-(1, 10, 'Reciclar', 'Reducir', 'Reparar', 'Reutilizar');
+(1, 10, 'Reciclar', 'Reducir', 'Reparar', 'Reutilizar'),
+(2, 1, 'Rojo', 'Blanco', 'Azul', 'Gris'),
+(2, 2, 'El Entorno Físico', 'Las Áreas Verdes', 'Todo aquello que nos rodea', 'Ninguna de las Anteriores'),
+(2, 3, 'Gris', 'Verde', 'Amarillo', 'Otro'),
+(2, 4, 'Papel,Vidrios,Plástico', 'Papel Fotografico,Materia Orgánica,Aluminio', 'Lentes,Pañales,Espejos', 'Todos los Anteriores'),
+(2, 5, 'Rojo', 'Azul', 'Verde', 'Gris'),
+(2, 6, 'Gris', 'Negro', 'Rojo', 'Blanco'),
+(2, 7, '90% de esos desechos', '70% de esos desechos', '20% de esos desechos', '100% de esos desechos'),
+(2, 8, 'Pilas y Baterias', 'Papel y Cartón', 'Pinturas y aceites', 'Ninguna de las Anteriores'),
+(2, 9, '9 árboles', '12 árboles', '5 árboles', '17 árboles'),
+(2, 10, '1 Tonelada', '2 Toneladas', '1,5 Toneladas', 'Menos de 1 Tonelada');
 
 -- --------------------------------------------------------
 
@@ -293,7 +265,17 @@ INSERT INTO `puntuacion` (`id_cuestionario`, `id_pregunta`, `opc`, `puntuacion`,
 (1, 7, 'Diez Veces', 0, 'Una Vez', 0, 'Para Siempre', 1, 'Tres Veces', 0),
 (1, 8, 'Una Bombilla', 0, 'Objetos de Cristal', 0, 'Cerámica o Porcelana', 0, 'Todos los Anteriores', 1),
 (1, 9, 'Azul', 0, 'Amarillo', 1, 'Verde', 0, 'Gris', 0),
-(1, 10, 'Reciclar', 0, 'Reducir', 0, 'Reparar', 0, 'Reutilizar', 1);
+(1, 10, 'Reciclar', 0, 'Reducir', 0, 'Reparar', 0, 'Reutilizar', 1),
+(2, 1, 'Rojo', 0, 'Blanco', 1, 'Azul', 0, 'Gris', 0),
+(2, 2, 'El Entorno Físico', 0, 'Las Áreas Verdes', 0, 'Todo aquello que nos rodea', 1, 'Ninguna de las Anteriores', 0),
+(2, 3, 'Gris', 0, 'Verde', 1, 'Amarillo', 0, 'Otro', 0),
+(2, 4, 'Papel,Vidrios,Plástico', 1, 'Papel Fotografico,Materia Orgánica,Aluminio', 0, 'Lentes,Pañales,Espejos', 0, 'Todos los Anteriores', 0),
+(2, 5, 'Rojo', 0, 'Azul', 0, 'Verde', 0, 'Gris', 1),
+(2, 6, 'Gris', 0, 'Negro', 0, 'Rojo', 1, 'Blanco', 0),
+(2, 7, '90% de esos desechos', 1, '70% de esos desechos', 0, '20% de esos desechos', 0, '100% de esos desechos', 0),
+(2, 8, 'Pilas y Baterias', 0, 'Papel y Cartón', 1, 'Pinturas y aceites', 0, 'Ninguna de las Anteriores', 0),
+(2, 9, '9 árboles', 0, '12 árboles', 0, '5 árboles', 0, '17 árboles', 1),
+(2, 10, '1 Tonelada', 1, '2 Toneladas', 0, '1,5 Toneladas', 0, 'Menos de 1 Tonelada', 0);
 
 -- --------------------------------------------------------
 
@@ -322,7 +304,7 @@ INSERT INTO `tipo_documento` (`id`, `descripcion`) VALUES
 -- Indices de la tabla `alumno`
 --
 ALTER TABLE `alumno`
-  ADD PRIMARY KEY (`identificacion`,`fecha`),
+  ADD PRIMARY KEY (`identificacion`,`id_tipo`) USING BTREE,
   ADD KEY `f_tipo` (`id_tipo`);
 
 --
@@ -384,7 +366,7 @@ ALTER TABLE `tipo_documento`
 -- AUTO_INCREMENT de la tabla `certificado`
 --
 ALTER TABLE `certificado`
-  MODIFY `numero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `numero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de la tabla `cuestionario`

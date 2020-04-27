@@ -9,6 +9,7 @@
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
         <link rel="stylesheet" type="text/css" href="css/style_primaria.css">
         <title>OVA Primaria</title>
+         
     </head>
     <body>
         <header class="encabezado">
@@ -34,7 +35,7 @@
             <a id="link2" target="frame" href="objetivos.jsp"><i class="icono_izquierda fa fa-bullseye"></i><strong>OBJETIVOS</strong></a>
             <a id="link3" target="frame" href="contenido1.jsp"><i class="icono_izquierda fa fa-file-text-o"></i><strong>CONTENIDO</strong></a>
             <a id="link4" target="frame" href="cuestionario.jsp"><i class="icono_izquierda fa fa-list-alt"></i><strong>CUESTIONARIO</strong></a>
-            <a id="link5" target="frame" href="bibliografia.jsp"><i class="icono_izquierda fa fa-book"></i><strong>BIBLIOGRAFIA</strong></a>
+            <a id="link5" target="frame" href="bibliografia.jsp"><i class="icono_izquierda fa fa-book"></i><strong>TEXTOS - APOYO</strong></a>
 	</ul>
         </div>
             <div id="conten_frame">

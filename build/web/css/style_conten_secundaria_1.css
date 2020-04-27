@@ -96,13 +96,12 @@
             .personaje{
                 
                 display:none;
-                padding-top: 70px;
+
                 animation-duration: 4s;
   animation-name: slidein;
    margin-rigth: 0%;
-                height: 400px;
-                
-                bottom: 0;               
+                height: 380px;
+                margin-top: 200px;                
             }
             @keyframes slidein {
   from {
@@ -118,17 +117,15 @@
   }
 }
 #mensaje{
+                position: relative;
                 display:none;
-                height: 50%;
-                animation-duration: 4s;
-  animation-name: slideii;
-   margin-left: 0%;
+                height: 280px;
    
                 background: url(../images/dialogo_transparente.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100% ;
                 width: 70%;
-                
+                right: 100px;
                 justify-content: center;
                 text-align: center;
                 
