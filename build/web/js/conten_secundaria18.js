@@ -4,12 +4,14 @@ $(document).ready(function() {
         $("#contenido").fadeIn(1000);
     },1000);
     setTimeout(function() {
-        $("#mensaje").fadeIn(1500);
         $(".personaje").fadeIn(1500);
     },2000);
     setTimeout(function() {
-        $(".imgen").fadeIn(1500);
+        $("#mensaje").fadeIn(1500);
     },5000);
+    setTimeout(function() {
+        $(".imgen").fadeIn(1500);
+    },7000);
     
 });
 
