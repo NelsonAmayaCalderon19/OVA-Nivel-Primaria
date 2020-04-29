@@ -27,6 +27,12 @@
                     <div id="biblio4">
                 <i class="fa fa-angle-right" id="play"></i><a id="general" href="https://www.youtube.com/watch?v=1qsBpLt8it0" target="_blanck">https://www.youtube.com/watch?v=1qsBpLt8it0</a>
                     </div>
+                <div id="biblio5">
+                <i class="fa fa-angle-right" id="play"></i><a id="general" href="https://es.slideshare.net/Redescolar/reciclaje-nios" target="_blanck">https://es.slideshare.net/Redescolar/reciclaje-nios</a>
+                    </div>
+                <div id="biblio6">
+                <i class="fa fa-angle-right" id="play"></i><a id="general" href="http://etab.ac-poitiers.fr/colegiofrancia/sites/colegiofrancia/IMG/pdf/EL_Reciclaje_y_los_ninos.pdf" target="_blanck">http://etab.ac-poitiers.fr/colegiofrancia/sites/colegiofrancia/IMG/pdf/EL_Reciclaje_y_los_ninos.pdf</a>
+                    </div>
             </div>
         </div>
         <script src="js/bibliografiajs.js" type="text/javascript"></script>

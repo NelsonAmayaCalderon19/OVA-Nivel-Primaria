@@ -8,6 +8,10 @@
         <servlet-name>Certificado_Secundaria</servlet-name>
         <servlet-class>control.Certificado_Secundaria</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Colegio</servlet-name>
+        <servlet-class>control.Colegio</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Certificado</servlet-name>
         <url-pattern>/Certificado</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>Certificado_Secundaria</servlet-name>
         <url-pattern>/Certificado_Secundaria</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Colegio</servlet-name>
+        <url-pattern>/Colegio</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

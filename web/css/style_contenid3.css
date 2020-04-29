@@ -1,4 +1,4 @@
-  *{
+*{
                 padding: 0px;
                 margin: 0px;
             }
@@ -92,19 +92,17 @@
                 margin: 0px auto;
                 width: 90%;
                 height: 100%;
-
-                background-color: #A5D1B5;
+                     background-color: #B5D2F5;
                 text-align: center;
                 justify-content: center;
-                padding: 2px;
+                padding: 6px;
                             -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
   clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
      
-                
             }
             #titulo_video{
                 font-family: times new roman;
-                font-size: 30px;
+                font-size: 35px;
                 color: orange;
                 margin: 0px auto;
                 padding-bottom: 3px;
@@ -123,7 +121,7 @@
             }
             #titulo_pregunta{
                 font-family: times new roman;
-                font-size: 25px;
+                font-size: 35px;
             }
             .respuestas{
                 width: 100%;
@@ -141,19 +139,19 @@
   display: inline-block;
   margin: 4px;
   padding: 8px;
-  background: #FAE3BB;
-  color: #4C3000;
+  background: #E6F4FE;
+  color: black;
   width: calc(50% - 8px);
   min-width: 100px;
   cursor: pointer;
 }
 
 #pregunta label:hover {
-  background: #C4E7E7;
+  background: #B5D2F5;
 }
 
 #pregunta input[type=radio]:checked + label {
-  background: orange;
+  background: #39A9FC;
   color: #FAFAFA;
 }
 #boton{
@@ -167,7 +165,7 @@
 #boton:hover{
 
     color: #000;
-    background-color: #C4E7E7;
+    background-color: #B5D2F5;
     border: 2px solid #CB8306;
 }
 
@@ -351,4 +349,3 @@
        margin-left: 15px;
        font-size: 23px;
   }
-

@@ -74,41 +74,57 @@
                 margin-top: 2px;
             }
             #titulo{
-                display: none;
-             width: 100%;
-             height: 10%;
-             text-align: center;
-             border: 2px solid #226ab9;
+                
+            display: none;
+                 margin: 0px auto;
+                width: 90%;
+                height: 10%;
+                     background-color: #B5D2F5;
+                text-align: center;
+                justify-content: center;
+                padding: 6px;
+                            -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+  clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+     
+             
             }
             #aplicacion{
-                font-family: times new roman;
-                font-size: 30px;
+               font-family: times new roman;
+                font-size: 35px;
                 color: orange;
+                margin: 0px auto;
+                padding-bottom: 3px;
+                margin-bottom: 3px;
+                text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
             }
             #tit_cab{
                font-family: times new roman;
-                font-size: 23px;
+                font-size: 26px;
                 color: #226ab9; 
             }
             #principal{
                 width: 100%;
-                height: 90%;
+                height: 70%;
                 padding: 10px;
                 display: flex;
-                margin-top: 5px;
+                margin-top: 25px;
+                justify-content: center;
+                align-items: center;
             }
             #izquierda{
                 display: none;
-                width: 48%;
+                margin: 0px auto;
+                width: 40%;
                 height: 100%;
-                border: 2px solid orange;
+               box-shadow: 0 0 30px #226ab9;
                 float: left;
             }
             #derecha{
                 display: none;
-                width: 48%;
+                margin: 0px auto;
+                width: 40%;
                 height: 100%;
-                border: 2px solid orange;
+                box-shadow: 0 0 30px #226ab9;
                 margin-left: 4%;
                 float: right;
             }
@@ -116,21 +132,24 @@
                 display: none;
                 width: 100%;
                 height: 10%;
-                border-bottom: 2px solid orange;
+               box-shadow: 0 0 30px #226ab9;
                 text-align: center;
+                padding: 8px;
             }
             #cabecera2{
                 display: none;
                 width: 100%;
                 height: 10%;
-                border-bottom: 2px solid orange;
+                box-shadow: 0 0 30px #226ab9;
                 text-align: center;
+                padding: 8px;
             }
             #cont{
                 display: none;
                 width: 100%;
                 height: 90%;
                 text-align: left;
+                padding: 10px;
                     
             }
             #cont2{
@@ -138,6 +157,7 @@
                 width: 100%;
                 height: 90%;
                 text-align: left;
+                padding: 10px;
             }
             #img{
                 display: none;

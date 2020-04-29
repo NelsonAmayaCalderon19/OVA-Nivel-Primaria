@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_contenido8.css">
+        <link rel="stylesheet" type="text/css" href="css/style_conten8.css">
         <title>Contenido 8</title>
     </head>
     <body>
@@ -16,13 +16,13 @@
                     <h6 id="bienv_text">Manejo de Residuos Sólidos</h6>
                 </div>
                 <div id="navegacion">
-                   <a href="contenido7.jsp" target="frame" id="anterior"><i class="fa fa-caret-left" id="caretant"></i> Anterior</a> <input id="campo" type="text" value="8/11" disabled=""/><a href="contenido9.jsp" target="frame" id="siguiente">Siguiente <i class="fa fa-caret-right" id="caret"></i></a>
+                   <a href="contenido7.jsp" target="frame" id="anterior"><i class="fa fa-caret-left" id="caretant"></i> Anterior</a> <input id="campo" type="text" value="9/12" disabled=""/><a href="contenido9.jsp" target="frame" id="siguiente">Siguiente <i class="fa fa-caret-right" id="caret"></i></a>
                 </div>
                 </div>
             <div id="cuerpo">
                 <div id="titulo">
-                    <h3 id="aplicacion">Clasificación de los Residuos Sólidos</h3>
-                </div>
+                        <h1 id="aplicacion">Clasificación de los Residuos</h1>
+                    </div>
                 <div id="principal">
                     <div id="izquierda">
                     <div id="cabecera">

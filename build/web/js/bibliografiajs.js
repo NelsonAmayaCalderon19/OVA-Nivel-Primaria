@@ -17,6 +17,9 @@ $(document).ready(function() {
     setTimeout(function() {
         $("#biblio5").fadeIn(500);
     },15004);
+    setTimeout(function() {
+        $("#biblio6").fadeIn(500);
+    },18005);
 });
 
 

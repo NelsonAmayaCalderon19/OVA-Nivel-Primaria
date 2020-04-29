@@ -16,7 +16,7 @@
                     <h6 id="bienv_text">Manejo de Residuos Sólidos</h6>
                 </div>
                 <div id="navegacion">
-                   <a href="" target="frame" id="anterior"><i class="fa fa-caret-left" id="caretant"></i> Anterior</a> <input id="campo" type="text" value="1/11" disabled=""/><a href="contenido2.jsp" target="frame" id="siguiente">Siguiente <i class="fa fa-caret-right" id="caret"></i></a>
+                   <a href="" target="frame" id="anterior"><i class="fa fa-caret-left" id="caretant"></i> Anterior</a> <input id="campo" type="text" value="1/12" disabled=""/><a href="contenido1.1.jsp" target="frame" id="siguiente">Siguiente <i class="fa fa-caret-right" id="caret"></i></a>
                 </div>
                 </div>
             <div id="conten">

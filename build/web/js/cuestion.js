@@ -12,26 +12,36 @@ $(document).ready(function()
                     var res8 = $('input:radio[name=pregunta8]:checked').val();
                     var res9 = $('input:radio[name=pregunta9]:checked').val();
                     var res10 = $('input:radio[name=pregunta10]:checked').val();
-                    if(res=="" || res==null){                      
-                        alert("Debes Seleccionar una Opción a la Pregunta 1");                       
+                    if(res=="" || res==null){   
+                        $('input:radio[name=pregunta1]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 1");  
                     }else if(res2=="" || res2==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 2");
+                        $('input:radio[name=pregunta2]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 2");  
                     }else if(res3=="" || res3==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 3");
+                        $('input:radio[name=pregunta3]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 3");  
                     }else if(res4=="" || res4==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 4");
+                        $('input:radio[name=pregunta4]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 4");  
                     }else if(res5=="" || res5==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 5");
+                        $('input:radio[name=pregunta5]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 5");  
                     }else if(res6=="" || res6==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 6");
+                        $('input:radio[name=pregunta6]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 6");  
                     }else if(res7=="" || res7==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 7");
+                        $('input:radio[name=pregunta7]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 7");  
                     }else if(res8=="" || res8==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 8");
+                        $('input:radio[name=pregunta8]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 8");  
                     }else if(res9=="" || res9==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 9");
+                        $('input:radio[name=pregunta9]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 9");  
                     }else if(res10=="" || res10==null){
-                        alert("Debes Seleccionar una Opción a la Pregunta 10");
+                        $('input:radio[name=pregunta10]').focus();
+                         alertify.alert("Advertencia!","Debes Seleccionar una Opción a la Pregunta 10");  
                     }else{
 overlay2.classList.add('active');
 	popup2.classList.add('active');

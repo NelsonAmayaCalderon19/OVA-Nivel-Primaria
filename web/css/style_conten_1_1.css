@@ -1,14 +1,23 @@
-*{
+ *{
                 padding: 0px;
                 margin: 0px;
             }
             body{
                 background-color: #F0F7F7;
-                overflow-x:hidden;
             }
             #contenido{
-                display: none;  
-               height: 648px;       
+                display: none;
+               /* animation-duration: 1.5s;
+  animation-name: slide;
+   margin-rigth: 0%;   */        
+               height: 648px;
+               /*background: url(images/bibliografic.jpg) no-repeat fixed right;
+               background-size: 50% 50%;
+/*background-size: cover;
+	/*background-repeat: no-repeat;
+	background-size: 100% 100% ;*/
+
+        
             }
             #encabezado{
                 width: 100%;
@@ -67,36 +76,41 @@
                 /*display: none;*/
                 font-size: 1em;               
             }
-            #cuerpo{
+            #conten{
                 width: 100%;
                 height: 90%;
-                margin-top: 2px;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                padding-top: 20px;
             }
-            #titulo{
-            display: none;
-                margin-top: 5px;
+            #recicla{
                 display: none;
-             width: 100%;
-             height: 10%;
-             text-align: center;
-             border: 2px solid orange;
+                color:#2E2EFE;
+                font-family: times new roman;
+                
             }
-            #aplicacion{
+            #cont{
+                padding-top: 20px;
+                margin: 0px auto;
+                width: 90%;
+                height: 90%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid green;
+                border-radius: 20px;
+                 box-shadow: 0 0 30px green;
+            }
+            #cont:hover{
+                box-shadow: 0 0 60px greenyellow;
+            }
+            #texto{
+                display: none;
                 font-family: times new roman;
                 font-size: 25px;
-                color: orange;
             }
-            #juego{
-                display: none;
-               margin-top: 5px;
-               width: 100%;
-               padding: 5px;
-             height: 90%;
-             justify-content: center;
-             align-items: center;
-             text-align: center;
-            }
-            #frame_juego{
-                margin: 0px auto;
-            }
+
+
+
 

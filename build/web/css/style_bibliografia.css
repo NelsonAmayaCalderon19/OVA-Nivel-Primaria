@@ -76,6 +76,14 @@
                 width: 50%;
                 margin-top: 3%;
             }
+            #biblio6{
+                display: none;
+                animation-duration: 3s;
+  animation-name: sliden;
+ margin-left: 0%;
+                width: 50%;
+                margin-top: 3%;
+            }
             #general:hover{
                 color: #226ab9;
             }
