@@ -40,7 +40,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import modelDAO.AlumnoDAO;
+import modelDAO.ColegioDao;
 import modelo.Alumno;
+import modelo.Colegio;
 /**
  *
  * @author NELSON
@@ -48,6 +50,8 @@ import modelo.Alumno;
 public class Certificado extends HttpServlet {
 Alumno alm = new Alumno();
 AlumnoDAO almdao = new AlumnoDAO();
+Colegio colegio = new Colegio();
+ColegioDao coldao = new ColegioDao();
 int dato=0;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -65,9 +69,22 @@ int dato=0;
         String accion = request.getParameter("accion");
 
         String menu = request.getParameter("menu");
-    if(menu.equalsIgnoreCase("Certificar")){                  
+    if(menu.equalsIgnoreCase("Certificar")){   
+      
 //                    almdao.nuevo_Certificado(dato);
             switch (accion){
+                case "Aceptar":
+                    String col = request.getParameter("txtColegio");
+                    colegio = coldao.buscar(String.valueOf(col));
+                    request.setAttribute("colegio", colegio);
+//                     PrintWriter pw2 = response.getWriter();
+//                        pw2.println("<script type=\"text/javascript\">");
+//pw2.println("alert('"+col+"');");
+//pw2.println("</script>"); 
+                    RequestDispatcher rd2=request.getRequestDispatcher("index.jsp");
+rd2.include(request, response);
+                    break;
+                    
                 case "Listar":
                      List lista = almdao.listar();
                    request.setAttribute("e", lista);
@@ -101,7 +118,7 @@ rd.include(request, response);
                PdfWriter.getInstance(documento, out);       
 documento.open();
                documento.open(); 
-               com.itextpdf.text.Image imag = com.itextpdf.text.Image.getInstance("");   
+               com.itextpdf.text.Image imag = com.itextpdf.text.Image.getInstance("https://i.pinimg.com/originals/67/8d/29/678d2976771ea52cd77a54591be4eff7.png");   
         imag.setAbsolutePosition(0, 0);
         imag.scaleToFit(842,595);
         documento.add(imag);
@@ -109,7 +126,7 @@ documento.open();
                Paragraph info2 = new Paragraph();
                Paragraph info9 = new Paragraph();
                Paragraph info10 = new Paragraph();
-               com.itextpdf.text.Image imagenes = com.itextpdf.text.Image.getInstance("https://i.pinimg.com/originals/67/8d/29/678d2976771ea52cd77a54591be4eff7.png");   
+               com.itextpdf.text.Image imagenes = com.itextpdf.text.Image.getInstance(""+colegio.getImagen()+"");   
         imagenes.setAbsolutePosition(90, 440);
         imagenes.scaleToFit(100,100);
         documento.add(imagenes);
@@ -118,15 +135,14 @@ documento.open();
         info.add(new Phrase(Chunk.NEWLINE));
         info.add(new Phrase(Chunk.NEWLINE));
         info.add(new Phrase(Chunk.NEWLINE));
-        info.add(new Phrase("Colegio Luis Carlos Galán Sarmiento                                                             ",fontinfo2));
-        info.add(new Phrase("    Nivel             ",fontinfo));
-        info.setAlignment(Element.ALIGN_RIGHT);  
+        info.add(new Phrase(""+colegio.getNombre()+"",fontinfo2));
+
+        info.setAlignment(Element.ALIGN_CENTER);  
         info2.add(new Phrase(Chunk.NEWLINE));
-        info2.add(new Phrase("Objeto Virtual de Aprendizaje - Manejo de Residuos Sólidos                      ",fontinfo2));
-        info2.add(new Phrase("    Primaria          ",fontinfo));
+        info2.add(new Phrase("Objeto Virtual de Aprendizaje - Manejo de Residuos Sólidos",fontinfo2));
         info2.add(new Phrase(Chunk.NEWLINE));
-        info.setAlignment(Element.ALIGN_RIGHT);       
-        info2.setAlignment(Element.ALIGN_RIGHT);
+        info.setAlignment(Element.ALIGN_CENTER);       
+        info2.setAlignment(Element.ALIGN_CENTER);
         info.add(new Phrase(Chunk.NEWLINE));
 
         documento.add(info);
@@ -198,10 +214,10 @@ rd.include(request, response);
           }catch(Exception e){
           } 
                     }
-                     
-    
                     break;
+                
                     default:
+                        
                     throw new AssertionError();
             }   
             
@@ -220,8 +236,25 @@ rd.include(request, response);
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
-    }
+        response.setContentType("text/html;charset=UTF-8");
+        request.setCharacterEncoding("UTF-8");
+        String accion = request.getParameter("accion");
+            switch (accion){
+                case "ingresar":          
+		String id=request.getParameter("id");
+colegio = coldao.buscar(String.valueOf(id));
+                    request.setAttribute("colegio", colegio);
+//                     PrintWriter pw2 = response.getWriter();
+//                        pw2.println("<script type=\"text/javascript\">");
+//pw2.println("alert('"+col+"');");
+//pw2.println("</script>"); 
+                    RequestDispatcher rd2=request.getRequestDispatcher("primaria.jsp");
+rd2.include(request, response);
+    	  break;
+                default:
+                    throw new AssertionError();
+            }
+	}
 
     /**
      * Handles the HTTP <code>POST</code> method.

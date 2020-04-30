@@ -6,72 +6,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-         .encabezado{
-             margin: 0px auto;
-	width: 97%;
-	height: 115px;
-	display: flex;
-	background-color: #226ab9;
-        padding: 10px;
-                        -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
-  clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
-     
-} 
-#division_logo{
-    width: 19%;
-    justify-content: center;
-    align-items: center;
-}
-.logo{
-    margin: 0px auto;
-    width: 200px;
-    height: 100%;   
-}
-#division_colegio{
-    width: 54%;
-}
-#colegio{
-    color: white;
-    font-family: times new roman;
-    font-size: 25px;
-    margin-top: 10px;   
-}
-#colegio2{
-    color: white;
-    font-family: times new roman;
-    font-size: 25px;
-    margin-top: 20px;    
-}
-#division_nivel{
-    width: 8%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-#nivel{
-    margin: 0px auto;
-    color: white;
-    font-family: times new roman;
-    font-size: 23px;
-    margin-top: 20px;  
-}
-#nivel2{
-    margin: 0px auto;
-    color: white;
-    font-family: times new roman;
-    font-size: 23px;
-    margin-top: 10px;   
-}
-#division_logo2{
-    width: 19%;
-    justify-content: center;
-    align-items: center;
-}
-.logo2{
-    float: right;
-    width: 200px;
-    height: 100%;   
-}
+         
 #contenido{
     width: 80%;
     margin: 0px auto;

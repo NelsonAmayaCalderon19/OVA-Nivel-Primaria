@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <%@ include file="header.jsp" %> 
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,23 +13,7 @@
          
     </head>
     <body>
-        <header class="encabezado">
-            <div id="division_logo">
-		<img class="logo" src="images/logo_galan.png" alt="">
-	</div>
-            <div id="division_colegio">
-		<h3 id="colegio">Colegio Luis Carlos Galán Sarmiento</h3>
-                <h3 id="colegio2">Objeto Virtual de Aprendizaje - Manejo de Residuos Sólidos</h3>
-	</div>
-            <div id="division_nivel">
-		<h3 id="nivel">Nivel</h3>
-                <h3 id="nivel2">Primaria</h3>
-	</div>
-            <div id="division_logo2">
-		<img class="logo2" src="images/logo_galan.png" alt="">
-	</div>
-            </header>
-        <div id="contenido">
+               <div id="contenido">
             <div class="menu_opciones">
 	<ul class="menu_opciones2">
             <a id="link" target="frame" href="inicio.jsp"><i class="icono_izquierda fa fa-home"></i><strong>INICIO</strong></a>
@@ -95,4 +80,9 @@
                      </div>
                       <script src="js/primariajs.js" type="text/javascript"></script>
     </body>
+    <script>
+        //document.getElementById("encabezado").style.display = "block";
+        document.getElementById("present").style.display="none";
+        document.getElementById("aceptar").style.display="none";
+        </script>
 </html>

@@ -1,0 +1,50 @@
+        #encabezado{
+             margin: 0px auto;
+   /* border: solid 2px #000;*/
+	width: 97%;
+	height: 115px;
+	display: flex;
+	background-color: #226ab9;
+        padding: 10px;
+                        -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+  clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+     
+} 
+#division_logo{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin: 0px auto;
+    width: 200px;
+    height: 100%;   
+}
+#division_colegio{
+    width: 80%;
+    text-align: center;
+}
+#colegio{
+    color: white;
+    font-family: times new roman;
+    font-size: 30px;
+    margin-top: 10px;   
+}
+#colegio2{
+    color: white;
+    font-family: times new roman;
+    font-size: 30px;
+    margin-top: 10px;    
+}
+
+#division_logo2{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    float: right;
+    width: 200px;
+    height: 100%;   
+}
+
