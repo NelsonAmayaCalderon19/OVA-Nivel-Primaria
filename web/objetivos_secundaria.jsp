@@ -28,6 +28,6 @@
                 </div>
             </div>
         </div>
-        <script src="js/objetivos_secundariajs.js" type="text/javascript"></script>
+        <script src="js/objetivo_secundariajs.js" type="text/javascript"></script>
     </body>
 </html>

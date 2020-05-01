@@ -39,7 +39,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import modelDAO.AlumnoDAO;
+import modelDAO.ColegioDao;
 import modelo.Alumno;
+import modelo.Colegio;
 
 /**
  *
@@ -48,6 +50,8 @@ import modelo.Alumno;
 public class Certificado_Secundaria extends HttpServlet {
 Alumno alm = new Alumno();
 AlumnoDAO almdao = new AlumnoDAO();
+Colegio colegio = new Colegio();
+ColegioDao coldao = new ColegioDao();
 int dato=0;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -68,6 +72,17 @@ int dato=0;
     if(menu.equalsIgnoreCase("Certificar")){                  
 //                    almdao.nuevo_Certificado(dato);
             switch (accion){
+                case "Aceptar":
+                    String col = request.getParameter("txtColegio");
+                    colegio = coldao.buscar(String.valueOf(col));
+                    request.setAttribute("colegio", colegio);
+//                     PrintWriter pw2 = response.getWriter();
+//                        pw2.println("<script type=\"text/javascript\">");
+//pw2.println("alert('"+col+"');");
+//pw2.println("</script>"); 
+                    RequestDispatcher rd2=request.getRequestDispatcher("index.jsp");
+rd2.include(request, response);
+                    break;
                 case "Listar":
                      List lista = almdao.listar();
                    request.setAttribute("e", lista);
@@ -116,7 +131,7 @@ documento.open();
                Paragraph info2 = new Paragraph();
                Paragraph info9 = new Paragraph();
                Paragraph info10 = new Paragraph();
-               com.itextpdf.text.Image imagenes = com.itextpdf.text.Image.getInstance("https://colgalancucuta.edu.co/web/wp-content/uploads/2019/07/escudo-300x300.png");   
+               com.itextpdf.text.Image imagenes = com.itextpdf.text.Image.getInstance(""+colegio.getImagen()+"");   
         imagenes.setAbsolutePosition(90, 440);
         imagenes.scaleToFit(100,100);
         documento.add(imagenes);
@@ -125,15 +140,13 @@ documento.open();
         info.add(new Phrase(Chunk.NEWLINE));
         info.add(new Phrase(Chunk.NEWLINE));
         info.add(new Phrase(Chunk.NEWLINE));
-        info.add(new Phrase("Colegio Luis Carlos Galán Sarmiento                                                             ",fontinfo2));
-        info.add(new Phrase("   Nivel               ",fontinfo));
-        info.setAlignment(Element.ALIGN_RIGHT);  
+         info.add(new Phrase(""+colegio.getNombre()+"",fontinfo2));
+        info.setAlignment(Element.ALIGN_CENTER);  
         info2.add(new Phrase(Chunk.NEWLINE));
-        info2.add(new Phrase("Objeto Virtual de Aprendizaje - Manejo de Residuos Sólidos                      ",fontinfo2));
-        info2.add(new Phrase("    Secundaria          ",fontinfo));
+        info2.add(new Phrase("Objeto Virtual de Aprendizaje - Manejo de Residuos Sólidos",fontinfo2));
         info2.add(new Phrase(Chunk.NEWLINE));
-        info.setAlignment(Element.ALIGN_RIGHT);       
-        info2.setAlignment(Element.ALIGN_RIGHT);
+        info.setAlignment(Element.ALIGN_CENTER);       
+        info2.setAlignment(Element.ALIGN_CENTER);
         info.add(new Phrase(Chunk.NEWLINE));
 
         documento.add(info);
@@ -228,7 +241,38 @@ rd.include(request, response);
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+         response.setContentType("text/html;charset=UTF-8");
+        request.setCharacterEncoding("UTF-8");
+        String accion = request.getParameter("accion");
+         PrintWriter out;
+         out = response.getWriter();
+            switch (accion){
+                case "ingresar":          
+		String id=request.getParameter("id");
+                if(id==""){
+                    out.println("<script src='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.all.js'></script>");
+            out.println("<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>");
+            out.println("<script>");
+            out.println("$(document).ready(function(){");
+            out.println("swal ('Error','Debes Seleccionar tu Colegio','error' )");
+            out.println("});");
+            out.println("</script>");
+            RequestDispatcher rd3=request.getRequestDispatcher("index.jsp");
+rd3.include(request, response);
+                }else{
+colegio = coldao.buscar(String.valueOf(id));
+                    request.setAttribute("colegio", colegio);
+//                     PrintWriter pw2 = response.getWriter();
+//                        pw2.println("<script type=\"text/javascript\">");
+//pw2.println("alert('"+col+"');");
+//pw2.println("</script>"); 
+                    RequestDispatcher rd2=request.getRequestDispatcher("secundaria.jsp");
+rd2.include(request, response);
+                }
+    	  break;
+                default:
+                    throw new AssertionError();
+            }
     }
 
     /**

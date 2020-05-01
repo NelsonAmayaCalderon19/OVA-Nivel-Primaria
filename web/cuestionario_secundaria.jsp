@@ -13,7 +13,7 @@
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
         <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/style_cuestionario_secundaria.css">
+<link rel="stylesheet" type="text/css" href="css/style_cuestion_secundaria.css">
         <title>Cuestionario Secundaria</title>
     </head>
     <body>
@@ -81,6 +81,6 @@
 			</div>
 		</div>
       <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-      <script src="js/cuestion_secundaria.js" type="text/javascript"></script>
+      <script src="js/cuestionario_secundaria.js" type="text/javascript"></script>
     </body>
 </html>

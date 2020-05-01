@@ -15,7 +15,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="shortcut icon"  href="images/logo_galan.png">
+        <link rel="shortcut icon"  href="${colegio.getImagen()}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
@@ -36,11 +36,11 @@
                         </script>
     <body>
 
-         <form name="reporte" action="Certificado?menu=Certificar" method="POST">
+        <form name="reporte" action="Certificado?menu=Certificar" method="POST" id="myform">
              <div id="seleccion">
              <h4 id="tit">Selecciona tu Colegio: </h4>
             <select name="txtColegio" class="select" id="present">
-                            <!--<option value="${producto.getId_Presentacion()}">${presentacion.getDescripcion()}</option>-->
+                            <option value="">--------Selecciona-------</option>
                             <%
                     ColegioDao daos3 = new ColegioDao();
                     List<Colegio>lista3=daos3.listar();
@@ -75,9 +75,9 @@
                     <div id="titulito3">
                         <h3 id="nivel3">Nivel Secundaria</h3>                         
                     </div>
-                <a href="secundaria.jsp" class="linkopacity"><img class="imagen3" src="images/secundaria.jpg" alt=""></a> 
+                <a href="Certificado_Secundaria?accion=ingresar&id=${colegio.getId()}" class="linkopacity"><img class="imagen3" src="images/secundaria.jpg" alt=""></a> 
                     </div></a>
             </div>
-        </div>         
+        </div>
     </body>
 </html>

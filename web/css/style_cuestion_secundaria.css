@@ -96,8 +96,8 @@ option:checked {
   display: inline-block;
   margin: 4px;
   padding: 8px;
-  background: #FAE3BB;
-  color: #4C3000;
+  background: #E6F4FE;
+  color: black;
   width: calc(50% - 8px);
   min-width: 100px;
   cursor: pointer;
@@ -106,7 +106,7 @@ option:checked {
 
 
 #pregunta input[type=radio]:checked + label {
-  background: #04B404;
+  background: #39A9FC;
   color: #FAFAFA;
 }
 #boton{

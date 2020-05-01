@@ -1,17 +1,18 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <%@ include file="header.jsp" %> 
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="shortcut icon"  href="images/logo_galan.png">
+        <link rel="shortcut icon"  href="${colegio.getImagen()}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="http://code.jquery.com/jquery-1.12.0.js"></script> 
-        <link rel="stylesheet" type="text/css" href="css/style_secundaria.css">
+        <link rel="stylesheet" type="text/css" href="css/styles_secundaria.css">
         <title>OVA Secundaria</title>
     </head>
     <body>
-        <header class="encabezado">
+       <!-- <header class="encabezado">
             <div id="division_logo">
 		<img class="logo" src="images/logo_galan.png" alt="">
 	</div>
@@ -26,7 +27,7 @@
             <div id="division_logo2">
 		<img class="logo2" src="images/logo_galan.png" alt="">
 	</div>
-            </header>
+            </header>-->
         <div id="contenido">
             <div class="menu_opciones">
 	<ul class="menu_opciones2">
