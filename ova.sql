@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-04-2020 a las 01:45:04
+-- Tiempo de generación: 01-05-2020 a las 18:24:18
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.2
 
@@ -44,14 +44,25 @@ INSERT INTO `alumno` (`identificacion`, `nombre`, `id_tipo`, `fecha`) VALUES
 ('1293934734', 'Andres Rojas', 2, '2020-04-26 09:47:46'),
 ('21454654854', 'Nelson Amaya', 2, '2020-04-27 16:21:35'),
 ('23442334', 'Jose Orozco', 1, '2020-04-25 20:19:00'),
+('3435345345', 'Andres Duran', 1, '2020-04-29 21:47:52'),
 ('3454365', 'Fercho Ortiz', 1, '2020-04-26 09:51:08'),
+('3534534534', 'Nelson Caicedo', 2, '2020-05-01 10:16:23'),
+('353465436', 'Daniel Andrade', 1, '2020-04-29 21:35:12'),
 ('3544326432', 'Pedro Arias', 1, '2020-04-25 20:08:31'),
+('423142314123', 'Alberto Diaz', 1, '2020-04-29 21:25:10'),
 ('4234123324', 'Stella Calderon', 2, '2020-04-25 20:16:05'),
+('4325435342', 'Amparo', 1, '2020-04-29 21:39:30'),
+('433252345', 'Antonio Cervantes', 1, '2020-04-29 21:41:03'),
+('4341324', 'Fercho Pedraza', 1, '2020-04-29 21:26:43'),
 ('4362432645', 'Jaider Amaya', 1, '2020-04-26 09:52:57'),
 ('53532562', 'Adriana Rojas', 2, '2020-04-26 09:49:23'),
+('535435432534', 'Ana Navarro', 1, '2020-04-29 21:42:36'),
 ('53643643', 'Jose Padilla', 1, '2020-04-26 09:56:03'),
 ('537374656', 'Carlos Blanco', 1, '2020-04-26 09:54:56'),
 ('543524534', 'Ana Castillo', 2, '2020-04-26 09:56:58'),
+('56464364', 'Pedro Camaño', 1, '2020-04-29 21:45:49'),
+('65464564554', 'Estaquia Ordoñez', 1, '2020-04-29 21:44:23'),
+('6546456456', 'Joselito Uruquijo', 1, '2020-04-29 21:37:52'),
 ('65465373', 'Geovanny Calderon', 2, '2020-04-26 09:48:32');
 
 -- --------------------------------------------------------
@@ -81,7 +92,18 @@ INSERT INTO `certificado` (`numero`) VALUES
 (10),
 (11),
 (12),
-(13);
+(13),
+(14),
+(15),
+(16),
+(17),
+(18),
+(19),
+(20),
+(21),
+(22),
+(23),
+(24);
 
 -- --------------------------------------------------------
 
@@ -113,7 +135,40 @@ INSERT INTO `cert_desc` (`numero_cert`, `id_alumno`, `id_nivel`, `fecha`) VALUES
 (10, '537374656', 1, '2020-04-26'),
 (11, '53643643', 1, '2020-04-26'),
 (12, '543524534', 2, '2020-04-26'),
-(13, '21454654854', 2, '2020-04-27');
+(13, '21454654854', 2, '2020-04-27'),
+(14, '423142314123', 1, '2020-04-29'),
+(15, '4341324', 1, '2020-04-29'),
+(16, '353465436', 1, '2020-04-29'),
+(17, '6546456456', 1, '2020-04-29'),
+(18, '4325435342', 1, '2020-04-29'),
+(19, '433252345', 1, '2020-04-29'),
+(20, '535435432534', 1, '2020-04-29'),
+(21, '65464564554', 1, '2020-04-29'),
+(22, '56464364', 1, '2020-04-29'),
+(23, '3435345345', 1, '2020-04-29'),
+(24, '3534534534', 2, '2020-05-01');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `colegio`
+--
+
+CREATE TABLE `colegio` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
+  `logo` varchar(500) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `colegio`
+--
+
+INSERT INTO `colegio` (`id`, `nombre`, `logo`) VALUES
+(1, 'Institución Educativa Luis Carlos Galán Sarmiento', 'https://colgalancucuta.edu.co/web/wp-content/uploads/2019/07/escudo-300x300.png'),
+(2, 'Institución Educativa Julio Pérez Ferrero', 'https://julioperezferrero.edu.co/web/wp-content/uploads/2020/02/escudo-300x300.png'),
+(3, 'Colegio Municipal María Concepción Loperena', 'https://colmunbto.edu.co/web/wp-content/uploads/2019/05/escudo-300x300.png'),
+(4, 'Colegio INEM José Eusebio Caro', 'https://www.webcolegios.com/inemcucuta/images/escudo.png');
 
 -- --------------------------------------------------------
 
@@ -180,6 +235,12 @@ INSERT INTO `pregunta` (`id_cuestionario`, `id`, `descripcion`) VALUES
 (1, 8, '¿Sabes cuál de estos objetos no deben tirarse en el contenedor de vidrio?'),
 (1, 9, '¿De que color es el contenedor para reciclar el papel o cartón?'),
 (1, 10, '\"Es el uso de un producto más de una vez en su forma original, para el mismo o nuevo propósito. Lo que para unos es basura, para otros es un recurso. Muchos materiales o productos desechados pueden ser reutilizados para su función original o para otros usos\" a cual de las 3R corresponde el texto anterior'),
+(1, 11, 'De los desechos mencionados en las lecturas recomendadas, ¿cual de los siguientes no es uno de más comunes?'),
+(1, 12, 'Dentro de una Ciudad se generan muchos residuos, de los siguientes cual es el que menos abunda en los depósitos de basura?:'),
+(1, 13, 'Según la lectura realizada, se dice que por cada tonelada de papel reciclado, podemos ahorrar entre un ____ menos de energía que hacer papel desde su materia prima'),
+(1, 14, '¿Cuál de los siguientes residuos es Biodegradable?'),
+(1, 15, '¿Sabes cuánto tarda, de media, en degradarse una botella de plástico?'),
+(1, 16, 'De las siguientes recomendaciones, ¿cual no esta relacionada con la reutilización de residuos?'),
 (2, 1, '¿De los siguientes colores de contenedores cual no corresponde a los vistos anteriormente?'),
 (2, 2, '¿Qué es el Medio Ambiente?'),
 (2, 3, '¿En Cuál Contenedor se desechan los objetos de Vidrio?'),
@@ -221,6 +282,12 @@ INSERT INTO `preg_opc` (`id_cuestionario`, `id_pregunta`, `opc1`, `opc2`, `opc3`
 (1, 8, 'Una Bombilla', 'Objetos de Cristal', 'Cerámica o Porcelana', 'Todos los Anteriores'),
 (1, 9, 'Azul', 'Amarillo', 'Verde', 'Gris'),
 (1, 10, 'Reciclar', 'Reducir', 'Reparar', 'Reutilizar'),
+(1, 11, 'Residuos Orgánicos', 'Vidrio', 'Plastico', 'Icopor'),
+(1, 12, 'Papel y Cartón', 'Madera', 'Plástico', 'Vidrio'),
+(1, 13, '1 y 29%', '30 y 55%', '56 y 78% ', '79 y 100%'),
+(1, 14, 'Papel', 'Textiles-Ropa', 'Comida', 'Ninguno de los anteriores'),
+(1, 15, '700 años aproximadamente', '20 años o menos', '100 años exactamente', ' más de 1000 años'),
+(1, 16, 'Dona los articulos que yan no usas', 'Utiliza el papel por ambas caras', 'Compra articulos con poco papel envolvente', 'Busca de una forma creativa dar uso a envases que tienes en tu casa'),
 (2, 1, 'Rojo', 'Blanco', 'Azul', 'Gris'),
 (2, 2, 'El Entorno Físico', 'Las Áreas Verdes', 'Todo aquello que nos rodea', 'Ninguna de las Anteriores'),
 (2, 3, 'Gris', 'Verde', 'Amarillo', 'Otro'),
@@ -266,6 +333,12 @@ INSERT INTO `puntuacion` (`id_cuestionario`, `id_pregunta`, `opc`, `puntuacion`,
 (1, 8, 'Una Bombilla', 0, 'Objetos de Cristal', 0, 'Cerámica o Porcelana', 0, 'Todos los Anteriores', 1),
 (1, 9, 'Azul', 0, 'Amarillo', 1, 'Verde', 0, 'Gris', 0),
 (1, 10, 'Reciclar', 0, 'Reducir', 0, 'Reparar', 0, 'Reutilizar', 1),
+(1, 11, 'Residuos Orgánicos', 0, 'Vidrio', 0, 'Plastico', 0, 'Icopor', 1),
+(1, 12, 'Papel y Cartón', 0, 'Madera', 1, 'Plástico', 0, 'Vidrio', 0),
+(1, 13, '1 y 29%', 0, '30 y 55%', 1, '56 y 78% ', 0, '79 y 100%', 0),
+(1, 14, 'Papel', 0, 'Textiles-Ropa', 0, 'Comida', 1, 'Ninguno de los anteriores', 0),
+(1, 15, '700 años aproximadamente', 1, '20 años o menos', 0, '100 años exactamente', 0, ' más de 1000 años', 0),
+(1, 16, 'Dona los articulos que yan no usas', 0, 'Utiliza el papel por ambas caras', 0, 'Compra articulos con poco papel envolvente', 1, 'Busca de una forma creativa dar uso a envases que tienes en tu casa', 0),
 (2, 1, 'Rojo', 0, 'Blanco', 1, 'Azul', 0, 'Gris', 0),
 (2, 2, 'El Entorno Físico', 0, 'Las Áreas Verdes', 0, 'Todo aquello que nos rodea', 1, 'Ninguna de las Anteriores', 0),
 (2, 3, 'Gris', 0, 'Verde', 1, 'Amarillo', 0, 'Otro', 0),
@@ -322,6 +395,12 @@ ALTER TABLE `cert_desc`
   ADD KEY `fke_alumno` (`id_alumno`);
 
 --
+-- Indices de la tabla `colegio`
+--
+ALTER TABLE `colegio`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `cuestionario`
 --
 ALTER TABLE `cuestionario`
@@ -366,7 +445,13 @@ ALTER TABLE `tipo_documento`
 -- AUTO_INCREMENT de la tabla `certificado`
 --
 ALTER TABLE `certificado`
-  MODIFY `numero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `numero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+
+--
+-- AUTO_INCREMENT de la tabla `colegio`
+--
+ALTER TABLE `colegio`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `cuestionario`
