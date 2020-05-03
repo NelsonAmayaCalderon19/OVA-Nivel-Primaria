@@ -25,7 +25,10 @@
                 <i class="fa fa-angle-right" id="play"></i><a id="general" href="https://www.youtube.com/watch?v=8BgRq_gvafU" target="_blanck">https://www.youtube.com/watch?v=8BgRq_gvafU</a>                
                     </div>
                     <div id="biblio4">
-                <i class="fa fa-angle-right" id="play"></i><a id="general" href="" target="_blanck"></a>
+                <i class="fa fa-angle-right" id="play"></i><a id="general" href="https://es.slideshare.net/ATRocio1/enseemos-a-los-nios-a-reciclar" target="_blanck">https://es.slideshare.net/ATRocio1/enseemos-a-los-nios-a-reciclar</a>
+                    </div>
+                <div id="biblio5">
+                <i class="fa fa-angle-right" id="play"></i><a id="general" href="https://ovacen.com/contenedores-reciclaje-y-residuos/" target="_blanck">https://ovacen.com/contenedores-reciclaje-y-residuos/</a>
                     </div>
             </div>
         </div>

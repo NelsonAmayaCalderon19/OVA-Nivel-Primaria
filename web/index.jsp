@@ -40,7 +40,7 @@
              <div id="seleccion">
              <h4 id="tit">Selecciona tu Colegio: </h4>
             <select name="txtColegio" class="select" id="present">
-                            <option value="">--------Selecciona-------</option>
+                            <option value="">-------------------------------</option>
                             <%
                     ColegioDao daos3 = new ColegioDao();
                     List<Colegio>lista3=daos3.listar();

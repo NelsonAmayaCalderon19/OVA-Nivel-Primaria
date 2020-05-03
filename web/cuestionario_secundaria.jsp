@@ -30,24 +30,25 @@
                     <%
                         Cuestion cad = new Cuestion();
                     ResultSet rs;
+                    int cont=1;
                     rs=cad.listarTodosSecundaria();
                     
                     %> 
                     <%while(rs.next()){%>                   
                         <form name="formulario<%=rs.getString("id_pregunta")%>" id="formulario<%=rs.getString("id_pregunta")%>">
                             <div id="conten_pregunta">
-                    <h1 id="titulo_pregunta"><%=rs.getString("id_pregunta")%>. <%=rs.getString("descripcion")%></h1>
+                    <h1 id="titulo_pregunta"><%=cont%>. <%=rs.getString("descripcion")%></h1>
                     </div>
-      <input type="radio" name="pregunta<%=rs.getString("id_pregunta")%>" value="<%=rs.getString("puntuacion")%>" id="pregunta1">
+      <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion")%>" id="pregunta1">
       <label for="<%=rs.getString("opc1")%>"><%=rs.getString("opc1")%></label><br>
-      <input type="radio" name="pregunta<%=rs.getString("id_pregunta")%>" value="<%=rs.getString("puntuacion2")%>" id="pregunta2">
+      <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion2")%>" id="pregunta2">
       <label for="<%=rs.getString("opc2")%>"><%=rs.getString("opc2")%></label><br>
-      <input type="radio" name="pregunta<%=rs.getString("id_pregunta")%>" value="<%=rs.getString("puntuacion3")%>" id="pregunta3">
+      <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion3")%>" id="pregunta3">
       <label for="<%=rs.getString("opc3")%>"><%=rs.getString("opc3")%></label><br>
-      <input type="radio" name="pregunta<%=rs.getString("id_pregunta")%>" value="<%=rs.getString("puntuacion4")%>" id="pregunta4">
+      <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion4")%>" id="pregunta4">
       <label for="<%=rs.getString("opc4")%>"><%=rs.getString("opc4")%></label><br><br>
        </form>
-   <%}%>
+   <%cont++;}%>
                         <input type="submit" value="Verificar" id="boton"  name="boton"/>                   
                 </div>
             </div>   
