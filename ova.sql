@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-05-2020 a las 18:24:18
+-- Tiempo de generación: 04-05-2020 a las 04:03:46
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.2
 
@@ -250,7 +250,13 @@ INSERT INTO `pregunta` (`id_cuestionario`, `id`, `descripcion`) VALUES
 (2, 7, 'En Contenido propuesto en la OVA, se dice que: \"si separamos adecuadamente los desechos que generamos, nos podremos dar de cuenta que podemos reciclar hasta un ... \"'),
 (2, 8, '¿Cuál de los siguientes residuos,no está elaborado a partir de sustancias tóxicas, perjudiciales para el ser humano?'),
 (2, 9, 'Según tu Criterio, Por cada tonelada de papel reciclado, estamos salvando hasta ____'),
-(2, 10, 'Entre los beneficios que se obtienen al reciclar se dice que: Por cada dos toneladas de plástico que se recicla, se ahorra \"________\" de petróleo.');
+(2, 10, 'Entre los beneficios que se obtienen al reciclar se dice que: Por cada dos toneladas de plástico que se recicla, se ahorra \"________\" de petróleo.'),
+(2, 11, '¿Sabes a qué contenedor deberías tirar envases de leche o jugo llamados Tetra Pack?'),
+(2, 12, 'En el contenido propuesto en las lecturas recomendadas, se dice que el Alumino tarda en promedio en descomponerse aproximadamente: '),
+(2, 13, '¿Cuál de los siguientes Residus Nunca se Descompone, a pesar del transcurrir de los Años?'),
+(2, 14, 'De acuerdo a los textos recomendados en el OVA, se dice que en promedio el \'_____\' de los residuos que generamos en nuestro hogar corresponde a Matería Orgánica'),
+(2, 15, 'Con el reciclado de 3 botellas de vidrio...'),
+(2, 16, 'Según la lectura previamente realizada, ¿Cuál es el orden correcto de las 3R para mantener el planeta ecológicamente sano y en las mejores condiciones para las siguientes generaciones?');
 
 -- --------------------------------------------------------
 
@@ -297,7 +303,13 @@ INSERT INTO `preg_opc` (`id_cuestionario`, `id_pregunta`, `opc1`, `opc2`, `opc3`
 (2, 7, '90% de esos desechos', '70% de esos desechos', '20% de esos desechos', '100% de esos desechos'),
 (2, 8, 'Pilas y Baterias', 'Papel y Cartón', 'Pinturas y aceites', 'Ninguna de las Anteriores'),
 (2, 9, '9 árboles', '12 árboles', '5 árboles', '17 árboles'),
-(2, 10, '1 Tonelada', '2 Toneladas', '1,5 Toneladas', 'Menos de 1 Tonelada');
+(2, 10, '1 Tonelada', '2 Toneladas', '1,5 Toneladas', 'Menos de 1 Tonelada'),
+(2, 11, 'Amarillo', 'Verde', 'Rojo', 'Otro Distinto'),
+(2, 12, 'Menos de 1 Año', 'Más de 100 Años', 'Entre 70 y 80 años', 'Nunca de Descompone'),
+(2, 13, 'Plástico', 'Cartón', 'Vidrio', 'Poliestireno'),
+(2, 14, '51 por ciento', '43 por ciento', '78 por ciento', '30 por ciento'),
+(2, 15, 'Evitamos la emisión de 1 kilogramo de CO2 a la atmósfera', 'Reducimos 1 kilogramo de basura que va al vertedero', 'Ahorramos más de 1 kilogramo de materia prima', 'Todas las respuestas anteriores son correctas'),
+(2, 16, 'Reducir - Reutilizar - Reciclar', 'Reciclar - Reducir - Reutilizar', 'Reducir - Reciclar - Reutilizar', 'Reutilizar - Reducir - Reciclar');
 
 -- --------------------------------------------------------
 
@@ -348,7 +360,13 @@ INSERT INTO `puntuacion` (`id_cuestionario`, `id_pregunta`, `opc`, `puntuacion`,
 (2, 7, '90% de esos desechos', 1, '70% de esos desechos', 0, '20% de esos desechos', 0, '100% de esos desechos', 0),
 (2, 8, 'Pilas y Baterias', 0, 'Papel y Cartón', 1, 'Pinturas y aceites', 0, 'Ninguna de las Anteriores', 0),
 (2, 9, '9 árboles', 0, '12 árboles', 0, '5 árboles', 0, '17 árboles', 1),
-(2, 10, '1 Tonelada', 1, '2 Toneladas', 0, '1,5 Toneladas', 0, 'Menos de 1 Tonelada', 0);
+(2, 10, '1 Tonelada', 1, '2 Toneladas', 0, '1,5 Toneladas', 0, 'Menos de 1 Tonelada', 0),
+(2, 11, 'Amarillo', 1, 'Verde', 0, 'Rojo', 0, 'Otro Distinto', 0),
+(2, 12, 'Menos de 1 Año', 0, 'Más de 100 Años', 0, 'Entre 70 y 80 años', 1, 'Nunca de Descompone', 0),
+(2, 13, 'Plástico', 0, 'Cartón', 0, 'Vidrio', 0, 'Poliestireno', 1),
+(2, 14, '51 por ciento', 0, '43 por ciento', 1, '78 por ciento', 0, '30 por ciento', 0),
+(2, 15, 'Evitamos la emisión de 1 kilogramo de CO2 a la atmósfera', 0, 'Reducimos 1 kilogramo de basura que va al vertedero', 0, 'Ahorramos más de 1 kilogramo de materia prima', 0, 'Todas las respuestas anteriores son correctas', 1),
+(2, 16, 'Reducir - Reutilizar - Reciclar', 1, 'Reciclar - Reducir - Reutilizar', 0, 'Reducir - Reciclar - Reutilizar', 0, 'Reutilizar - Reducir - Reciclar', 0);
 
 -- --------------------------------------------------------
 
