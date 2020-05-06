@@ -1,0 +1,218 @@
+*{
+                padding: 0px;
+                margin: 0px;
+            }
+            body{
+                background-color: #EFFBF8;
+                overflow-y:hidden;
+            }
+            #contenido{
+                /*display: none;
+               /* animation-duration: 1.5s;
+  animation-name: slide;
+   margin-rigth: 0%;   */        
+               height: 648px;
+               /*background: url(images/bibliografic.jpg) no-repeat fixed right;
+               background-size: 50% 50%;
+/*background-size: cover;
+	/*background-repeat: no-repeat;
+	background-size: 100% 100% ;*/
+
+        
+            }
+            #encabezado{
+                width: 100%;
+                height: 10%;
+                border-bottom: 5px dotted grey;
+                display: flex;
+            }
+            #bienv{
+                width: 50%;
+                height: 100%;
+            }
+            #bienv_text{
+                float: left;
+                font-size: 30px;
+                padding: 5px;
+                color: #D56203;
+            }
+            #navegacion{
+                width: 50%;
+                height: 100%;
+                /*text-align: right;*/
+                padding: 5px;
+                justify-content: center;
+                align-items: center;
+                 display: flex;
+            }
+            #campo,#siguiente,#caret{
+               
+            }
+            #campo{
+                width: 30%;
+                text-align: center;
+                justify-content: center;
+                 margin-right: 3%;
+                 margin-left: 3%;
+            }
+            #siguiente{
+                font-family: times new roman;
+                font-size: 20px;
+                margin-right: 5%;
+            }
+            #anterior{
+                /*visibility: hidden;*/
+                /*display: none;*/
+                font-family: times new roman;
+                font-size: 20px;
+                margin-left: 3%;
+            }
+            #caret{
+                
+                font-size: 1em;
+                
+            }
+            #caretant{
+                /*visibility: hidden;*/
+                /*display: none;*/
+                font-size: 1em;               
+            }
+            #cont{
+                width: 100%;
+                height: 90%;
+                justify-content: center;
+                align-items: center;
+            }
+            #titulo{
+                width: 100%;
+                height: 10%;
+                margin-top: 5px;
+                text-align: center;
+                justify-content: center;
+            }
+            #titulos{
+                margin: 0px auto;
+                width: 90%;
+                height: 100%;
+                     background-color: #B5D2F5;
+                text-align: center;
+                justify-content: center;
+                padding: 8px;
+                            -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+  clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+     
+            }
+            #titulo_video{
+                font-family: times new roman;
+                font-size: 35px;
+                color: orange;
+                margin: 0px auto;
+                padding-bottom: 3px;
+                margin-bottom: 3px;
+                text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+            }
+            #camp{
+                margin: 0px auto;
+                margin-top: 20px;
+                padding: 10px;
+                width: 90%;
+                height: 85%;
+                display: flex;
+            }
+            #camp1{
+                display: none;
+                padding: 20px;
+                width: 40%;
+                height: 100%;
+                border: 2px solid #FD4431;  
+                 border-radius: 15px;                   
+            }
+             #camp1:hover{
+                box-shadow: 0 0 30px #FD4431;
+            }
+                  #texto{
+    font-family: times new roman; 
+    font-size: 20px; 
+    color: black;
+}
+             #camp3:hover{
+                box-shadow: 0 0 30px #FD4431;
+            }
+            #camp2{
+                display: none;
+                animation-duration: 5s;
+  animation-name: slidein;
+  margin-top: 0px;
+                width: 20%;
+                height: 100%;
+                justify-content: center;
+                text-align: center;
+                    
+            }
+                                       @keyframes slidein {
+  from {
+
+    margin-top: 30%;
+    /*transform: translateX(100%);*/
+  }
+
+  to {
+ margin-top: 0%;
+
+    /*transform: translateY(50%);*/
+  }
+}
+            #camp3{
+                 display: none;
+                width: 40%;
+                text-align: left;
+                height: 100%;
+                padding: 20px;
+                border: 2px solid #FD4431; 
+                border-radius: 15px;
+            }
+            #flecha{
+                width: 100%;
+                height: 15%;
+                text-align: right;
+                padding-left: 25px;
+                padding-top: 15px;
+            }
+            #foto{
+                width: 100%;
+                height: 70%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                
+            }
+            #flecha2{
+                width: 100%;
+                height: 15%;
+                text-align: right;
+                padding-right: 25px;
+                padding-bottom: 20px;
+            }
+            #manita{
+                font-size: 4em;
+                color: green;
+                float: left;
+                margin-bottom: 10px;
+                margin-left: 15px;
+            }
+            #manita2{
+                font-size: 4em;
+                color: green;
+                float: right;
+                margin-right: 25px;
+                transform: rotate(180deg);              
+            }
+
+            .imgen{
+    /*display: none;*/
+    width: 100%;
+    height: 60%;
+    /*margin-top: 60px;
+    margin-right: 10px;*/
+
+}

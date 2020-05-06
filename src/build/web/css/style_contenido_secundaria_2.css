@@ -1,0 +1,155 @@
+ *{
+                padding: 0px;
+                margin: 0px;
+            }
+            body{
+                background-color: #EFFBF8;
+            }
+            #contenido{
+                display: none;
+               /* animation-duration: 1.5s;
+  animation-name: slide;
+   margin-rigth: 0%;   */        
+               height: 648px;
+               /*background: url(images/bibliografic.jpg) no-repeat fixed right;
+               background-size: 50% 50%;
+/*background-size: cover;
+	/*background-repeat: no-repeat;
+	background-size: 100% 100% ;*/
+
+        
+            }
+            #encabezado{
+                width: 100%;
+                height: 10%;
+                border-bottom: 5px dotted grey;
+                display: flex;
+            }
+            #bienv{
+                width: 50%;
+                height: 100%;
+            }
+            #bienv_text{
+                float: left;
+                font-size: 30px;
+                padding: 5px;
+                color: #D56203;
+            }
+            #navegacion{
+                width: 50%;
+                height: 100%;
+                /*text-align: right;*/
+                padding: 5px;
+                justify-content: center;
+                align-items: center;
+                 display: flex;
+            }
+            #campo,#siguiente,#caret{
+               
+            }
+            #campo{
+                width: 30%;
+                text-align: center;
+                justify-content: center;
+                 margin-right: 3%;
+                 margin-left: 3%;
+            }
+            #siguiente{
+                font-family: times new roman;
+                font-size: 20px;
+                margin-right: 5%;
+            }
+            #anterior{
+                /*visibility: hidden;*/
+                /*display: none;*/
+                font-family: times new roman;
+                font-size: 20px;
+                margin-left: 3%;
+            }
+            #caret{
+                
+                font-size: 1em;
+                
+            }
+            #caretant{
+                /*visibility: hidden;*/
+                /*display: none;*/
+                font-size: 1em;               
+            }
+            #conten{
+                width: 100%;
+                height: 90%;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                padding-top: 20px;
+            }
+            #recicla{
+                color:#2E2EFE;
+                font-family: times new roman;
+                
+            }
+            #cont{
+                padding-top: 20px;
+                margin: 0px auto;
+                width: 90%;
+                height: 45%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            #cont:hover{
+                box-shadow: 0 0 30px red;
+            }
+            #texto{
+                font-family: times new roman;
+                font-size: 25px;
+            }
+            #imagen{
+                margin: 0px auto;
+                width: 90%;
+                height: 55%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;  
+            }
+            .imgen{
+    display: none;
+    width: 20%;
+    height: 70%;
+    margin-top: 60px;
+    margin-right: 10px;
+     -webkit-animation: translate 5s infinite ease-in-out;
+}
+ @-webkit-keyframes translate{
+    0%{transform: translateY(0px);}
+    25%{transform: translateY(5px);}
+    50%{transform: translateY(-25px);}
+    75%{transform: translateY(20px);}
+    100%{transform: translateY(0px);}
+    /*0%{-webkit-transform: rotateX(360deg);}
+    100%{-webkit-transform: rotateX(0deg);}*/
+}
+.imgen2{
+    display: none;
+    width: 20%;
+    height: 70%;
+    margin-right: 10px;
+     -webkit-animation: translate 8s infinite ease-in-out;
+}
+.imgen3{
+    display: none;
+    width: 20%;
+    height: 70%;
+    margin-top: 60px;
+    margin-right: 10px;
+     -webkit-animation: translate 5s infinite ease-in-out;
+}
+.imgen4{
+    display: none;
+    width: 20%;
+    height: 70%;
+     -webkit-animation: translate 8s infinite ease-in-out;
+}
+            
+
