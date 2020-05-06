@@ -40,7 +40,7 @@
                     <h1 id="titulo_pregunta"><%=cont%>. <%=rs.getString("descripcion")%></h1>
                     </div>
       <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion")%>" id="pregunta1">
-      <label for="<%=rs.getString("opc1")%>"><%=rs.getString("opc1")%></label><br>
+      <label for="<%=rs.getString("opc")%>"><%=rs.getString("opc")%></label><br>
       <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion2")%>" id="pregunta2">
       <label for="<%=rs.getString("opc2")%>"><%=rs.getString("opc2")%></label><br>
       <input type="radio" name="pregunta<%=cont%>" value="<%=rs.getString("puntuacion3")%>" id="pregunta3">
