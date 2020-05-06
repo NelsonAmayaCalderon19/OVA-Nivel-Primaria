@@ -23,7 +23,7 @@
         
         <header id="encabezado">
             <div id="division_logo">
-		<img class="logo" src="${colegio.getImagen()}" onerror="this.onerror=null;this.src='images/logo_galan.png';" alt="">
+		<img class="logo" src="${colegio.getImagen()}"  alt="">
 	</div>
             <div id="division_colegio">
 		<h3 id="colegio">${colegio.getNombre()}</h3>
@@ -31,7 +31,7 @@
 	</div>
 
             <div id="division_logo2">
-		<img class="logo2" src="${colegio.getImagen()}" onerror="this.onerror=null;this.src='images/logo_galan.png';" alt="">
+		<img class="logo2" src="${colegio.getImagen()}"  alt="">
 	</div>
             </header>
        

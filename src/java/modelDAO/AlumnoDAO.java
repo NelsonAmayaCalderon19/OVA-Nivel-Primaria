@@ -24,12 +24,13 @@ public class AlumnoDAO {
     ResultSet rs;
     int r;
      public int agregar(Alumno c){
-    String sql="insert into alumno(identificacion, nombre, id_tipo, fecha) values(?,?,?,NOW())";
+    String sql="insert into alumno(identificacion, nombre, id_tipo,id_Colegio, fecha) values(?,?,?,?,NOW())";
     try{
     ps=con.prepareStatement(sql);
     ps.setString(1, c.getIdentificacion());
     ps.setString(2, c.getNombre());
     ps.setInt(3, c.getTipo_doc());
+    ps.setInt(4, c.getId_Colegio());
     ps.executeUpdate();
     }catch(Exception ex){
     }

@@ -114,6 +114,7 @@ rd.include(request, response);
                     alm.setIdentificacion(id);
                     alm.setNombre(nombre);
                     alm.setTipo_doc(Integer.parseInt(fin));
+                    alm.setId_Colegio(colegio.getId());
                     almdao.agregar(alm);
                     almdao.descripcion_Certificado(dato,alm);
                      response.setContentType("application/pdf");
