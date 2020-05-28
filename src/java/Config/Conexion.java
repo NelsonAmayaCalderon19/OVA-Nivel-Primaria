@@ -15,14 +15,14 @@ import javax.swing.JOptionPane;
  * @author TURBO Core i3
  */
 public class Conexion {
-//     public String db="ova";
-//    public String url="jdbc:mysql://localhost/" +db;
-//    public String user="root";
-//    public String pass="";
-    public String db="sql10340336";
-    public String url="jdbc:mysql://sql10.freemysqlhosting.net/" +db;
-    public String user="sql10340336";
-    public String pass="yxUvmRqAaF";
+     public String db="ova";
+    public String url="jdbc:mysql://localhost/" +db;
+    public String user="root";
+    public String pass="";
+//    public String db="sql10342426";
+//    public String url="jdbc:mysql://sql10.freemysqlhosting.net/" +db;
+//    public String user="sql10342426";
+//    public String pass="Rce3QRtZEn";
     Connection link=null;
     public Conexion(){
         

@@ -39,7 +39,7 @@
                             <div id="popup-video">
                                 <i id="video_tut" class="fa fa-video-camera"></i><h3 id="titulo_video">VIDEO TUTORIAL</h3>
                             </div>
-                        <iframe id="cicle" width="550" height="300" src="https://www.youtube.com/embed/85MppyLJHz0?autohide=0" allowfullscreen></iframe>
+                        <iframe id="cicle" width="550" height="300" src="https://www.youtube.com/embed/t-8d4pP34yc?autohide=0" allowfullscreen></iframe>
                             </div> 				                                                                                           
 			</div>
 		</div>
