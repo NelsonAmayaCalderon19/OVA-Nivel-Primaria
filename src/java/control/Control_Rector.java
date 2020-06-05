@@ -25,13 +25,16 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import modelo.Rector;
+import modelDAO.*;
 
 /**
  *
  * @author NELSON
  */
 public class Control_Rector extends HttpServlet {
-
+Rector us = new Rector();
+    RectorDAO usdao = new RectorDAO();
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.

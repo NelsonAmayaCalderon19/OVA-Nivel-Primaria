@@ -14,15 +14,17 @@ public class Docente {
     public String cedula;
     public String password;
     public String codigo;
+    public Integer colegio;
 
     public Docente() {
     }
 
-    public Docente(String nombre, String cedula, String password, String codigo) {
+    public Docente(String nombre, String cedula, String password, String codigo, Integer colegio) {
         this.nombre = nombre;
         this.cedula = cedula;
         this.password = password;
         this.codigo = codigo;
+        this.colegio = colegio;
     }
 
     public String getNombre() {
@@ -55,6 +57,14 @@ public class Docente {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    public Integer getColegio() {
+        return colegio;
+    }
+
+    public void setColegio(Integer colegio) {
+        this.colegio = colegio;
     }
     
 }
