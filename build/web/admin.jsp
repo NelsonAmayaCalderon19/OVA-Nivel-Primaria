@@ -113,16 +113,91 @@
                <script src="js/tablajs.js" type="text/javascript"></script>
         </div>  
              </div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Profile
-      
+                
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <form action="Control_Rector" method="POST"> 
+      <div class="container col-12">
+          <div class="row">
+              <div class="col-12">
+                  <h1 class="text-center text-success">Nuevo Docente</h1>
+              </div>
+              <br><br>
+             
+      <div class="col-md-6">
+          <div class="form-group">
+    <label for="Usuario">Nombre</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+    </div>
+    <input type="text" class="form-control" id="nombre" name="txtnombre" required="">
+  </div>
+          </div>
+          <div class="form-group">
+    <label for="Usuario">Cédula</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card"></i></span>
+    </div>
+    <input type="text" class="form-control" id="cedula" name="txtcedula" required="">
+  </div>
+          </div>
+          <div class="form-group">
+    <label for="Usuario">Código</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card"></i></span>
+    </div>
+    <input type="text" class="form-control" id="codigo" name="txtcodigo">
+  </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="form-group">
+    <label for="Usuario">Email</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
+    </div>
+    <input type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Email No Válido" name="txtemail" required="">
+  </div>
+          </div>
+          <div class="form-group">
+    <label for="Usuario">Contraseña</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
+    </div>
+    <input type="password" class="form-control" id="password" name="txtpassword" pattern=".{8,}" title="Mínimo debe tener 8 Dígitos" required="">
+  </div>
+          </div>
+          
+      </div>
+              <br>
+              <br>
+              <div class="col-12">
+                   <div class="row justify-content-center">
+                       <div class="col-6">
+                  <div class="form-group">
+               <input class=" btn btn-block btn-success" type="submit" value="Registrar" id="registrar" name="accion" />
+               <a class=" btn btn-block btn-warning" id="cancelar" href="#">Cancelar</a>
+               
+                  </div>
+                  </div>
+                  </div>
+              </div>
+              </div>
+      </div>
+      </div>
+                </form>
   </div>
   <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Contact
   
   </div>
 </div>
-      </div>
+      </div> 
   </div>
-    </div>
+   
   
     </body>
 </html>
