@@ -186,4 +186,8 @@ a.linkopacity:hover img {
     font-family: times new roman;
     color: black;
 }
+#adm{
+    float: right;
+    margin-right: 5%;
+}
 

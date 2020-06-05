@@ -12,6 +12,14 @@
         <servlet-name>Colegio</servlet-name>
         <servlet-class>control.Colegio</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Control_Rector</servlet-name>
+        <servlet-class>control.Control_Rector</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Control_Docente</servlet-name>
+        <servlet-class>control.Control_Docente</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Certificado</servlet-name>
         <url-pattern>/Certificado</url-pattern>
@@ -23,6 +31,14 @@
     <servlet-mapping>
         <servlet-name>Colegio</servlet-name>
         <url-pattern>/Colegio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Control_Rector</servlet-name>
+        <url-pattern>/Control_Rector</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Control_Docente</servlet-name>
+        <url-pattern>/Control_Docente</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

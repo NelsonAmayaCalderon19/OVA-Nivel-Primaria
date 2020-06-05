@@ -53,8 +53,10 @@
                                 <%}%>
                             </select>
                             <input class="btn btn-primary" type="submit" value="Aceptar" id="aceptar" name="accion" onclick="ActivarCampoOtroTema();"/>
+            <a href="admin_login.jsp" class="btn btn-success" id="adm"><i class="fa fa-user"> Administrar</i></a>
              </div>
         </form>
+                            
         <div id="contenido">
             <div id="conten">
                 <a href="preescolar.jsp"><div id="preescolar">
