@@ -19,14 +19,13 @@
         <title>Login</title>
     </head>
     <body>
+        
         <!-- if you want to create login page and register page together in one page ...you have to only chnage his name...that's it...                 -->
-<div class="container" style="margin-top: 2%;">
+<div class="container" style="margin-top: 5%;">
   <div class="row">
     <div class="col-sm-4"> </div>
 <div class="col-md-4">
-  
-<h1 class="text-center text-success">Login Admin</h1>
-<br/>
+
 
 <div class="col-sm-12">
 
@@ -34,9 +33,9 @@
 
 
 
-    <li class="" style="width:50%"><a class="btn btn-lg btn-default" data-toggle="tab" href="#home">Rector</a></li>
+    <li class="" style="width:50%"><a class="btn btn-lg btn-default" data-toggle="tab" href="#home" id="btn-rec">Rector</a></li>
    
-    <li class=" " style="width:48%"><a class=" btn btn-lg btn-default" data-toggle="tab" href="#menu1">Docente</a></li>
+    <li class=" " style="width:48%"><a class=" btn btn-lg btn-default" data-toggle="tab" href="#menu1" id="btn-doc">Docente</a></li>
 
 
 
@@ -47,17 +46,18 @@
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      
+      <h1 class="text-center text-success">Login Rector</h1>
+      <br>
 <form action="Control_Rector" method="POST">
 
   <div class="form-group">
     <label for="Usuario">Usuario</label>
-    <input type="text" class="form-control" id="usuario" placeholder="Ingresa tu Usuario" required="">
+    <input type="text" class="form-control" id="usuario" name="txtuser"  placeholder="Ingresa tu Usuario" required="">
   </div>
   
   <div class="form-group">
     <label for="contrseña">Contraseña</label>
-    <input type="password" class="form-control" id="password" placeholder="Ingresa tu Contraseña" required="">
+    <input type="password" class="form-control" id="password" name="txtpass"  placeholder="Ingresa tu Contraseña" required="">
   </div>
 
 
@@ -68,7 +68,8 @@
 </form>
     </div>
     <div id="menu1" class="tab-pane fade">
-
+  <h1 class="text-center text-success">Login Docente</h1>
+  <br>
 <form action="#">
 
   <div class="form-group">

@@ -10,21 +10,33 @@ package modelo;
  * @author NELSON
  */
 public class Docente {
+    public Integer id;
     public String nombre;
     public String cedula;
     public String password;
     public String codigo;
+    public String email;
     public Integer colegio;
 
     public Docente() {
     }
 
-    public Docente(String nombre, String cedula, String password, String codigo, Integer colegio) {
+    public Docente(Integer id, String nombre, String cedula, String password, String codigo, String email, Integer colegio) {
+        this.id = id;
         this.nombre = nombre;
         this.cedula = cedula;
         this.password = password;
         this.codigo = codigo;
+        this.email = email;
         this.colegio = colegio;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -57,6 +69,14 @@ public class Docente {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Integer getColegio() {
