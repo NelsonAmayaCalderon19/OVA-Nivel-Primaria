@@ -107,4 +107,18 @@ public class AlumnoDAO {
          }   
     return rs;
     };
+       public String buscarNivel(String id){      
+        String cat="";
+    String sql="select * from nivel where id_nivel="+id;
+    try{
+    con=cn.Conexion();
+    ps=con.prepareStatement(sql);
+    rs=ps.executeQuery();
+    while(rs.next()){
+    cat=rs.getString(2);
+    }
+    }catch(Exception e){    
+    }
+    return cat;
+    }
 }

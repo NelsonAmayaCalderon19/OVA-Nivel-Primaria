@@ -12,14 +12,7 @@ $('#minhatabela').DataTable( {
        //}
 } );
 $('#minhatabela').DataTable( {
-   /* "createdRow": function( row, data, dataIndex ) {
-             if ( data[4] != "Activo" ) {        
-         //$(row).addClass('red');
-         $(row).attr('style', 'background-color: #EF5350; color: white; font-size: 17px; text-align: center; font-weight: bold;');
-             }else{
-               $(row).attr('style', ' color: black !important; font-size: 17px; text-align: center; font-weight: bold;');  
-             }
-       },*/
+ 
     
     "destroy": true,
     

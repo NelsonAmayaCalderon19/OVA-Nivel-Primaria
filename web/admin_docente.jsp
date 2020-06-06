@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js">   
    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
-    <!--<script src = "jquery-1.7.1.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/admin_docente.css">
 
         <title>Panel Docente</title>
     </head>
@@ -98,7 +98,7 @@
                             <td class="text-center"><h5  id="intro"><%=rs.getString("cd.numero_cert")%></h5></td>
                             <td class="text-center"><h5  id="intro"><%=rs.getString("al.nombre")%></h5></td>
                             <td class="text-center"><h5  id="intro"><%=rs.getString("cd.id_alumno")%></h5></td>                     
-                            <td class="text-center"><h5  id="intro"><%=rs.getString("cd.id_nivel")%></h5></td>
+                            <td class="text-center"><h5  id="intro"><%=cad.buscarNivel(String.valueOf(rs.getString("cd.id_nivel")))%></h5></td>
                             <td class="text-center"><h5  id="intro"><%=rs.getString("cd.fecha")%></h5></td>
                            
                         </tr>

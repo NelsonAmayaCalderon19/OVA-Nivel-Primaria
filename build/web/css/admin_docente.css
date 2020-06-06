@@ -1,0 +1,28 @@
+    .red {
+  background-color: #EF5350 ;
+  color: white;
+  border-radius: 50px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 18px;
+}
+     .green{
+  background-color: #00CC00;
+  color: white;
+  border-radius: 50px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 18px;
+}
+td{
+    color: black !important; 
+    font-size: 17px; 
+    text-align: center; 
+    font-weight: bold;      
+}
+
+th{
+    color: #0275d8;
+    
+}
+
