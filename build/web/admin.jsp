@@ -70,7 +70,7 @@
       <div class="col-md-12">
          <div class="tab-content" id="pills-tabContent">
              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                 <h1 class="text-center text-success">Listado de Docentes</h1>
+                 <h1 class="text-center text-primary">Listado de Docentes</h1>
                  <br>
                    <div class="col-sm-12" style=" margin-top: -10px;">
 
@@ -116,7 +116,7 @@
       <div class="container col-12">
           <div class="row">
               <div class="col-12">
-                  <h1 class="text-center text-success">Nuevo Docente</h1>
+                  <h1 class="text-center text-primary">Nuevo Docente</h1>
               </div>
               <br><br>
              

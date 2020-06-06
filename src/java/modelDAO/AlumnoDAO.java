@@ -97,4 +97,14 @@ public class AlumnoDAO {
     }
     return lista;
     }
+       public ResultSet listarTodos(String id){
+    String sql=("select cd.numero_cert,al.nombre,cd.id_alumno,cd.id_nivel,cd.fecha from cert_desc as cd, alumno as al where cd.id_alumno=al.identificacion and al.id_Colegio="+id);   
+         try {
+             con=cn.Conexion();
+             ps=con.prepareStatement(sql);
+             rs=ps.executeQuery();
+         } catch (Exception ex) {           
+         }   
+    return rs;
+    };
 }

@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon"  href="https://previews.123rf.com/images/mamanamsai/mamanamsai1509/mamanamsai150900443/46419881-admin-dise%C3%B1o-de-icono-de-red-en-fondo-amarillo-bot%C3%B3n-vector-limpia.jpg">
+  <link rel="shortcut icon"  href="images/admin.jpg">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -33,9 +33,9 @@
 
 
 
-    <li class="" style="width:50%"><a class="btn btn-lg btn-default" data-toggle="tab" href="#home" id="btn-rec">Rector</a></li>
+    <li class="" style="width:50%"><a class="nav-link active btn btn-lg btn-default" data-toggle="tab" href="#home" id="btn-rec">Rector</a></li>
    
-    <li class=" " style="width:48%"><a class=" btn btn-lg btn-default" data-toggle="tab" href="#menu1" id="btn-doc">Docente</a></li>
+    <li class=" " style="width:48%"><a class="nav-link btn btn-lg btn-default" data-toggle="tab" href="#menu1" id="btn-doc">Docente</a></li>
 
 
 

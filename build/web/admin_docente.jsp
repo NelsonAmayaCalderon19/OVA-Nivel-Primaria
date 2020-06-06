@@ -4,6 +4,9 @@
     Author     : NELSON
 --%>
 
+<%@page import="modelDAO.AlumnoDAO"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="modelDAO.DocenteDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -63,5 +66,66 @@
     
   </div>
 </nav>
+  <div class="container">
+  <div class="row">
+      <div class="col-md-12">
+         <div class="tab-content" id="pills-tabContent">
+             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                 <h1 class="text-center text-primary">Listado de Alumnos Certificados</h1>
+                 <br>
+                   <div class="col-sm-12" style=" margin-top: -10px;">
+
+                    <%                                       
+                        AlumnoDAO cad = new AlumnoDAO();
+                   ResultSet rs;
+                   String colegio= request.getSession().getAttribute("resultado").toString();  
+                    rs=cad.listarTodos(colegio);                   
+                    %>  
+            <table id="minhatabela" class="display responsive table table-striped table-bordered table-hover" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th class="text-center">N° CERTIFICADO</th>
+                        <th class="text-center">NOMBRE</th>
+                        <th class="text-center">DOCUMENTO</th>
+                        <th class="text-center">NIVEL ACADEMICO</th>
+                        <th class="text-center">FECHA</th>
+
+                    </tr>
+                </thead>
+                <tbody>     
+                    <%while(rs.next()){%>
+                        <tr>                            
+                            <td class="text-center"><h5  id="intro"><%=rs.getString("cd.numero_cert")%></h5></td>
+                            <td class="text-center"><h5  id="intro"><%=rs.getString("al.nombre")%></h5></td>
+                            <td class="text-center"><h5  id="intro"><%=rs.getString("cd.id_alumno")%></h5></td>                     
+                            <td class="text-center"><h5  id="intro"><%=rs.getString("cd.id_nivel")%></h5></td>
+                            <td class="text-center"><h5  id="intro"><%=rs.getString("cd.fecha")%></h5></td>
+                           
+                        </tr>
+                       <%}%>                       
+                </tbody>
+            </table> 
+               <script src="js/tablajs.js" type="text/javascript"></script>
+        </div>  
+             </div>
+                
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <form action="Control_Rector" method="POST"> 
+      <div class="container col-12">
+          <div class="row">
+              <div class="col-12">
+                  <h1 class="text-center text-primary">Añadir Preguntas</h1>
+              </div>
+             
+
+              
+              </div>
+      </div>
+      </div>
+                </form>
+  </div>
+</div>
+      </div> 
+  </div>
     </body>
 </html>
