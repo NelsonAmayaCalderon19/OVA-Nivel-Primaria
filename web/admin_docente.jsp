@@ -4,6 +4,10 @@
     Author     : NELSON
 --%>
 
+<%@page import="java.util.Iterator"%>
+<%@page import="modelo.Nivel"%>
+<%@page import="java.util.List"%>
+<%@page import="modelDAO.NivelDAO"%>
 <%@page import="modelDAO.AlumnoDAO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="modelDAO.DocenteDAO"%>
@@ -34,7 +38,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js">   
    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="css/admin_docente.css">
+    <link rel="stylesheet" type="text/css" href="css/admin_docente_style.css">
 
         <title>Panel Docente</title>
     </head>
@@ -116,7 +120,112 @@
               <div class="col-12">
                   <h1 class="text-center text-primary">Añadir Preguntas</h1>
               </div>
-             
+              <div class="col-4">
+                  <div class="form-group">
+    <label for="Usuario">Nivel Academico</label>
+    <div class="input-group mb-3">
+    <select name="txtCategoria" class="select form-control" id="cat">
+                            <%
+                    NivelDAO daos = new NivelDAO();
+                    List<Nivel>lista=daos.listar();
+                    Iterator<Nivel>itera=lista.iterator();
+                    Nivel em = null;
+                    while(itera.hasNext()){
+                        em=itera.next();                    
+                    %>                        
+                        <option value="<%=em.getId()%>"><%=em.getDescripcion()%></option>
+                                <%}%>
+                            </select>
+  </div>
+          </div>
+              </div>
+              <div class="col-12">
+                   <div class="form-group">
+    <label for="Usuario">Titulo Pregunta</label>
+    <div class="input-group mb-3">
+          <textarea class="form-control" aria-label="With textarea" name="pregunta" id="pregunta"></textarea>
+  </div>
+          </div>
+              </div>
+                     
+      <div class="col-md-6">
+          <div class="form-group">
+    <label for="Usuario">Opción 1:</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><strong>A</strong></span>
+    </div>
+    <input type="text" class="form-control" id="nombre" name="txtnombre" required="">
+  </div>
+          </div>
+          <div class="form-group">
+    <label for="Usuario">Opción 2:</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><strong>B</strong></span>
+    </div>
+    <input type="text" class="form-control" id="cedula" name="txtcedula" required="">
+  </div>
+          </div>
+          <div class="form-group">
+    <label for="Usuario">Opción 3:</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><strong>C</strong></span>
+    </div>
+    <input type="text" class="form-control" id="codigo" name="txtcodigo">
+  </div>
+          </div>
+          <div class="form-group">
+    <label for="Usuario">Opción 4:</label>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><strong>D</strong></span>
+    </div>
+    <input type="text" class="form-control" id="codigo" name="txtcodigo">
+  </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="form-group col-6">
+    <label for="Usuario">Puntuación</label>
+    <div class="input-group mb-3">
+        <input type="number" class="form-control" id="punt1" name="punt1" value="0" min="0" max="10">
+  </div>
+          </div>
+          <div class="form-group col-6">
+    <label for="Usuario">Puntuación</label>
+    <div class="input-group mb-2">
+ <input type="number" class="form-control" id="punt2" name="punt2" value="0" min="0" max="10">
+    </div>
+          </div>
+          <div class="form-group col-6">
+    <label for="Usuario">Puntuación</label>
+    <div class="input-group mb-3">
+ <input type="number" class="form-control" id="punt3" name="punt3" value="0" min="0" max="10">
+    </div>
+          </div>
+          <div class="form-group col-6">
+    <label for="Usuario">Puntuación</label>
+    <div class="input-group mb-3">
+ <input type="number" class="form-control" id="punt4" name="punt4" value="0" min="0" max="10">
+    </div>
+          </div>
+          
+      </div>
+              <br>
+              <br>
+              <div class="col-12">
+                   <div class="row justify-content-center">
+                       <div class="col-6">
+                  <div class="form-group">
+               <input class=" btn btn-block btn-success" type="submit" value="Registrar" id="registrar" name="accion" />
+               <a class=" btn btn-block btn-warning" id="cancelar" href="#">Cancelar</a>
+               
+                  </div>
+                  </div>
+                  </div>
+              </div>
 
               
               </div>

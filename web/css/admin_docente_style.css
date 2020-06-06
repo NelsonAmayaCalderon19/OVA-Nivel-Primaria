@@ -22,7 +22,14 @@ td{
 }
 
 th{
-    color: #0275d8;
-    
+    color: #0275d8;  
 }
+
+.select{
+                border: 3px solid #58ACFA;                
+                color: black;
+                font-size: 17px;
+                width: 200px;
+                height: 43px;
+            }
 
