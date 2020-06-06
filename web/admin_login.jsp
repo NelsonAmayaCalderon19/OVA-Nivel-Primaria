@@ -63,26 +63,27 @@
 
 
    <input class="pull-right btn btn-block btn-success" type="submit" value="Ingresar" id="ingresar" name="accion" />
-
+   <a class="pull-right btn btn-block btn-warning" href="index.jsp">Volver</a>
 
 </form>
     </div>
     <div id="menu1" class="tab-pane fade">
   <h1 class="text-center text-success">Login Docente</h1>
   <br>
-<form action="#">
+<form action="Control_Docente" method="POST">
 
   <div class="form-group">
     <label for="Usuario">N° Cedula ó Código</label>
-    <input type="text" class="form-control" id="usuario" placeholder="Ingresa tu N° de Cedula o Código " required="">
+    <input type="text" class="form-control" id="cedula" name="txtcedula" placeholder="Ingresa tu N° de Cedula o Código " required="">
   </div>
   
   <div class="form-group">
     <label for="contrseña">Contraseña</label>
-    <input type="password" class="form-control" id="password" placeholder="Ingresa tu Contraseña" required="">
+    <input type="password" class="form-control" name="txtpass" id="password" placeholder="Ingresa tu Contraseña" required="">
   </div>
 
    <input class="pull-right btn btn-block btn-success" type="submit" value="Ingresar" id="ingresar" name="accion" />
+   <a class="pull-right btn btn-block btn-warning" href="index.jsp">Volver</a>
 </form>
     </div>
    </div>

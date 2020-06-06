@@ -53,9 +53,6 @@
   <li class="nav-item">
     <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Registrar Docente</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-  </li>
 </ul>
       
      <ul class="navbar-nav mr-auto">
@@ -103,8 +100,8 @@
                             <td class="text-center"><h5  id="intro"><%=rs.getString("email")%></h5></td>
           
                             <td class="text-center">
-                                <a class="btn btn-warning" onclick="pais();" href="Control_Rector?accion=Editar&id=<%=rs.getString("id")%>"><span class="fa fa-pencil-square-o" style="color: white;"</span></a>
-                                <a class="btn btn-danger" href="javascript:;" onclick="aviso('Control_Rector?accion=Delete&id=<%=rs.getString("id")%>'); return false;"><span class="fa fa-minus-circle" style="color: white;"</span></a>
+                                <a class="btn btn-warning" onclick="pais();" href="Control_Rector?accion=editar&id=<%=rs.getString("id")%>"><span class="fa fa-pencil-square-o" style="color: white;"</span></a>
+                                <a class="btn btn-danger" href='Control_Rector?accion=delete&id=<%=rs.getString("id")%>'><span class="fa fa-trash" style="color: white;"</span></a>
                             </td>
                         </tr>
                        <%}%>                       
@@ -191,13 +188,23 @@
       </div>
                 </form>
   </div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Contact
-  
-  </div>
 </div>
       </div> 
   </div>
-   
+                <script>
+                    function aviso(url){
+        alertify.confirm('<Strong>¡Adventercia!</Strong>',"¿Esta Seguro de Eliminar este Docente?",
+  function() {      
+    alertify.success('Confirmado');
+    document.location = url;
+return true;
+  },
+  function() {      
+    alertify.error('Cancelado');
+  }
+);
+}; 
+                </script>
   
     </body>
 </html>
