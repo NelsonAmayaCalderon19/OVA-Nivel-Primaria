@@ -136,7 +136,7 @@
     <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card"></i></span>
     </div>
-    <input type="text" class="form-control" id="cedula" name="txtcedula" required="">
+    <input type="text" class="form-control" id="cedula" name="txtcedula" pattern="[0-9]{5,20}" title="Valor no Válido - Solo Números" required="">
   </div>
           </div>
           <div class="form-group">

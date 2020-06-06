@@ -24,6 +24,9 @@ td{
 th{
     color: #0275d8;  
 }
+h1{
+         font-family: 'Kaushan Script', cursive;
+         }
 
 .select{
                 border: 3px solid #58ACFA;                
@@ -31,5 +34,11 @@ th{
                 font-size: 17px;
                 width: 200px;
                 height: 43px;
+            }
+
+            label{
+                font-size: 19px;
+                color: black;
+                font-family: times new roman;
             }
 

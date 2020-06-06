@@ -1,6 +1,6 @@
 <%@page import="Config.Conexion"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="modelo.Cuestion"%>
+<%@page import="modelDAO.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -30,11 +30,10 @@
                 <div id="preguntas">
                     <div id="pregunta">
                     <%
-                        Cuestion cad = new Cuestion();
+                        PreguntaDAO cad = new PreguntaDAO();
                     ResultSet rs;
                      int cont=1;
-                    rs=cad.listarTodos();
-                   
+                    rs=cad.listarTodos();                  
                     %> 
                     <%while(rs.next()){%>                   
                         <form name="formulario<%=rs.getString("id_pregunta")%>" id="formulario<%=rs.getString("id_pregunta")%>">

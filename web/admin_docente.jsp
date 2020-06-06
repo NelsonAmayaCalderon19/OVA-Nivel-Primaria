@@ -38,7 +38,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js">   
    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="css/admin_docente_style.css">
+    <link rel="stylesheet" type="text/css" href="css/admin_docente_styles.css">
 
         <title>Panel Docente</title>
     </head>
@@ -114,7 +114,7 @@
              </div>
                 
   <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-      <form action="Control_Rector" method="POST"> 
+      <form action="Control_Docente" method="POST"> 
       <div class="container col-12">
           <div class="row">
               <div class="col-12">
@@ -124,7 +124,7 @@
                   <div class="form-group">
     <label for="Usuario">Nivel Academico</label>
     <div class="input-group mb-3">
-    <select name="txtCategoria" class="select form-control" id="cat">
+    <select name="txtNivel" class="select form-control" id="cat">
                             <%
                     NivelDAO daos = new NivelDAO();
                     List<Nivel>lista=daos.listar();
@@ -143,7 +143,7 @@
                    <div class="form-group">
     <label for="Usuario">Titulo Pregunta</label>
     <div class="input-group mb-3">
-          <textarea class="form-control" aria-label="With textarea" name="pregunta" id="pregunta"></textarea>
+        <textarea class="form-control" aria-label="With textarea" name="txtpregunta" id="pregunta" required="" style="border-radius: 15px"></textarea>
   </div>
           </div>
               </div>
@@ -155,7 +155,7 @@
     <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1"><strong>A</strong></span>
     </div>
-    <input type="text" class="form-control" id="nombre" name="txtnombre" required="">
+    <input type="text" class="form-control" id="nombre" name="txtopc1" required="">
   </div>
           </div>
           <div class="form-group">
@@ -164,7 +164,7 @@
     <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1"><strong>B</strong></span>
     </div>
-    <input type="text" class="form-control" id="cedula" name="txtcedula" required="">
+    <input type="text" class="form-control" id="cedula" name="txtopc2" required="">
   </div>
           </div>
           <div class="form-group">
@@ -173,7 +173,7 @@
     <div class="input-group-prepend">
     <span class="input-group-text" id="basic-addon1"><strong>C</strong></span>
     </div>
-    <input type="text" class="form-control" id="codigo" name="txtcodigo">
+    <input type="text" class="form-control" id="codigo" name="txtopc3" required="">
   </div>
           </div>
           <div class="form-group">
@@ -182,7 +182,7 @@
     <div class="input-group-prepend">
     <span class="input-group-text" id="basic-addon1"><strong>D</strong></span>
     </div>
-    <input type="text" class="form-control" id="codigo" name="txtcodigo">
+    <input type="text" class="form-control" id="codigo" name="txtopc4" required="">
   </div>
           </div>
       </div>
@@ -219,7 +219,7 @@
                    <div class="row justify-content-center">
                        <div class="col-6">
                   <div class="form-group">
-               <input class=" btn btn-block btn-success" type="submit" value="Registrar" id="registrar" name="accion" />
+               <input class=" btn btn-block btn-success" type="submit" value="Agregar" id="agregar" name="accion"/>
                <a class=" btn btn-block btn-warning" id="cancelar" href="#">Cancelar</a>
                
                   </div>
@@ -230,8 +230,9 @@
               
               </div>
       </div>
+                            </form>
       </div>
-                </form>
+                
   </div>
 </div>
       </div> 
